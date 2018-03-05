@@ -136,7 +136,7 @@ public class MagicSquare  {
 				   System.out.print(magic[i][j] + "\t");    
 		   		System.out.println();   
 		   	}
-		   	FileWriter fw=new FileWriter(new File("src/P1/txt/6.txt"));
+		   	FileWriter fw=new FileWriter(new File("src/txt/6.txt"));
 		    BufferedWriter  bw=new BufferedWriter(fw);
 	    		for (i = 0; i < n; i++) 
 	    		   {    
@@ -151,15 +151,15 @@ public class MagicSquare  {
 	
 	public static void main(String[] args) throws IOException
 	{
-		System.out.println(isLegalMagicSquare("src/P1/txt/1.txt"));
-		System.out.println(isLegalMagicSquare("src/P1/txt/2.txt"));
-		System.out.println(isLegalMagicSquare("src/P1/txt/3.txt"));
-		System.out.println(isLegalMagicSquare("src/P1/txt/4.txt"));
-		System.out.println(isLegalMagicSquare("src/P1/txt/5.txt"));
+		System.out.println(isLegalMagicSquare("src/txt/1.txt"));
+		System.out.println(isLegalMagicSquare("src/txt/2.txt"));
+		System.out.println(isLegalMagicSquare("src/txt/3.txt"));
+		System.out.println(isLegalMagicSquare("src/txt/4.txt"));
+		System.out.println(isLegalMagicSquare("src/txt/5.txt"));
 		System.out.println(generateMagicSquare(6));
 		System.out.println(generateMagicSquare(-5));
 		System.out.println(generateMagicSquare(5));
-		//System.out.println(isLegalMagicSquare("src/P1/txt/6.txt"));
+		System.out.println(isLegalMagicSquare("src/txt/6.txt"));
 	}
 
 }
