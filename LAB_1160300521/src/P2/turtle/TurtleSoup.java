@@ -144,9 +144,10 @@ public class TurtleSoup {
      */
     public static void drawPersonalArt(Turtle turtle) {
         //throw new RuntimeException("implement me!");
+    		turtle.color(PenColor.RED);
     		for(int i=0;i<30;i++)
     		{
-    			turtle.color(PenColor.RED);
+    			//turtle.color(PenColor.RED);
     			drawRegularPolygon(turtle, 30, 20);
     			turtle.turn(12);		
     		}

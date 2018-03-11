@@ -8,6 +8,7 @@ import P3.Person;
 
 public class FriendshipGraphTest {
 	
+	//test a null person
 	@Test(expected = IllegalArgumentException.class)
 	public void testaddVertexnull() {
 		FriendshipGraph graph = new FriendshipGraph();
@@ -15,6 +16,7 @@ public class FriendshipGraphTest {
 		graph.addVertex(lee);
 	}
 	
+	//Test adding person with the same name 
 	@Test(expected = IllegalArgumentException.class)	
 	public void testaddVertexin() {
 		FriendshipGraph graph = new FriendshipGraph();
@@ -23,6 +25,7 @@ public class FriendshipGraphTest {
 		graph.addVertex(rachel);
 	}
 	
+	//Test adding an edge with null perosn
 	@Test(expected = IllegalArgumentException.class)
 	public void testaddEdgenull() {
 		FriendshipGraph graph = new FriendshipGraph();
@@ -31,12 +34,15 @@ public class FriendshipGraphTest {
 		graph.addEdge(rachel,lee);
 	}
 	
+	//Test adding an edge with the same name perosn
 	@Test (expected = IllegalArgumentException.class)	
 	public void testaddEdgesame() {
 		FriendshipGraph graph = new FriendshipGraph();
 		Person rachel = new Person("Rachel");
 		graph.addEdge(rachel,rachel);
 	}
+	
+	//Test adding a duplicated edge
 	@Test (expected = IllegalArgumentException.class)	
 	public void testaddEdgein() {
 		FriendshipGraph graph = new FriendshipGraph();
