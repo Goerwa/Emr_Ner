@@ -1,6 +1,5 @@
 package P3;
 import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
 
 import P3.FriendshipGraph;
