@@ -7,7 +7,7 @@ public class FriendshipGraph {
 	private Person[][] persons;
 	private int[] total;
 	private int numPers;
-	private static final int MAX_NUM = 100;
+	private static final int MAX_NUM = 1000;
 
 	/**
 	 * Class constructor specifying the identifier of the friends relationships
