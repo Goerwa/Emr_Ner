@@ -7,7 +7,7 @@
 
     <!-- 项目 -->
     <groupId>cn.hit.edu</groupId>                <!--项目包名-->
-    <artifactId>Lab1-1160300521</artifactId>    <!-- 模块名，建议使用项目名 -->
+    <artifactId>Lab2-1160300521</artifactId>    <!-- 模块名，建议使用项目名 -->
     <version>0.0.1-SNAPSHOT</version>            <!--版本，此处为快照版本-->
 
     <!-- 属性配置 -->
@@ -44,12 +44,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.10</version>
-        </dependency>
-        <dependency>
-            <!--Twitter的Json依赖-->
-            <groupId>javax.json</groupId>
-            <artifactId>javax.json-api</artifactId>
-            <version>1.1.2</version>
         </dependency>
     </dependencies>
 </project>
