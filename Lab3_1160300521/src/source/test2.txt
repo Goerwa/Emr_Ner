@@ -1,0 +1,6 @@
+
+
+“Computer1”, “Word”
+Vertex = <“FrankDarabont”, “Person”, <“59”, “M”>>
+Vertex = <“TimRobbins”, “Person”, <“60”, “F”>>
+Edge = <“R1S1”, “FriendTie”, “0.5”, “FrankDarabont”,“TimRobbins”, “Yes”>

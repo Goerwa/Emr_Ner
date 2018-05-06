@@ -1,0 +1,4 @@
+“Computer1”, “Word”
+Vertex = <“Computer1”, “Word”>
+Vertex = <“Computer2”, “Word”>
+Edge = <“R1”, “WordNeighborhood”, “100”, “Computer1”, “Computer2”, “No”>

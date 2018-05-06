@@ -1,0 +1,5 @@
+“Computer1”, “Word”
+Vertex = <“Computer1”, “Computer”, <“192.168.1.101”>>
+Vertex = <“Router1”, “Router”, <“192.168.1.111”>>
+Vertex = <“Server1”, “Server”, <“192.168.1.121”>>
+Edge = <“R1S1”, “NetworkConnection”, “100”, “Computer1”,“Router1”, “No”>
