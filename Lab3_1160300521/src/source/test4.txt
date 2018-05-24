@@ -1,9 +1,0 @@
-“Computer1”, “Word”
-Vertex = <“TimRobbins”, “Actor”, <“60”, “M”>>
-Vertex = <“lee”, “Actor”, <“60”, “M”>>
-Vertex = <“goo”, “Actor”, <“60”, “M”>>
-Vertex = <“GreenMile”, “Movie”, <“1999”, “USA”, “8.5”>>
-Vertex = <“FrankDarabont”, “Director”, <“59”, “M”>>
-Edge = <“SRFD”, “MovieDirectorRelation”, “99”,“GreenMile”, “FrankDarabont”,“No”>
-Edge = <“SRMF”, “MovieActorRelation”, “12”,“GreenMile”, “TimRobbins”, “No”>
-HyperEdge = <“ActorsInSR”, “SameMovieHyperEdge”, {“TimRobbins”“,lee”,“goo”}>
