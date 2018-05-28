@@ -1,0 +1,1744 @@
+时间：05-24 21:50
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:74)
+信息：The data read Vertex = <"word3"> in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "word1", "word2", "Yes"> in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge2", "WordNeighborhood", "100", "word1", "word3", "Y"> in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "100", "word1", in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type NetworkTopology is wrong
+时间：05-24 21:50
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type NetworkTopology is wrong
+时间：05-24 21:50
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 21:50
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 21:50
+类型：ERROR
+位置：factory.NetworkTopologyFactory.build(NetworkTopologyFactory.java:206)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 21:50
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge8", "NetworkConnection", "100", "C in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge3", "NetworkConnection", "Computer2","Router2", "No"> in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge3", "NetworkConnection", "100", "Computer2","Router2", "No and Yes"> in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:116)
+信息：The data read Vertex = <"director1", "Director", <"5> in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:231)
+信息：The data read Edge = <"edge4", "MovieActorRelation", "1","actor1", "mo in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:231)
+信息：The data read Edge = <"edge7", "MovieActorRelation", "2","actor1", "movie3", "ook> in does not match the regular expression!
+时间：05-24 21:50
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:276)
+信息：The data read HyperEdge = <"hyperedge1", "SameMovieHyperEdge", > in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:245)
+信息：the length of hyperedge must bu more than 1!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.build(GraphPoetFactory.java:189)
+信息：this graph cannot have hyperedge!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:201)
+信息：this graph cannot have hyperedge!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.build(NetworkTopologyFactory.java:250)
+信息：this graph cannot have hyperedge!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:62)
+信息：The type of vertex Person is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:104)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:63)
+信息：The type of vertex Word is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:107)
+信息：The type of edge NetworkConnecion is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:73)
+信息：The type of vertex Person is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:142)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:91)
+信息：The type of vertex Word is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:161)
+信息：The type of edge abcd is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:249)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：graph.NetworkTopology.addEdge(NetworkTopology.java:65)
+信息：the name of one person2 is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：graph.NetworkTopology.addVertex(NetworkTopology.java:24)
+信息：type of vertex is wrong
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "-2", "word1", "word2", "Yes"> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:89)
+信息：The weight is 22.75 not belong to (0,1]!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:129)
+信息：The data read Edge = <"edge1", "FriendTie", "-0.42", "Person1","Person2", "Yes"> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:114)
+信息：The weight is -222.0 not more than 0!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:175)
+信息：The weight is -1.0 not more than 0!
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:75)
+信息：the weight of edge must be (0,1]!
+时间：05-24 22:08
+类型：ERROR
+位置：graph.SocialNetwork.addVertex(SocialNetwork.java:33)
+信息：type of vertex is wrong
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：graph.MovieGraph.addEdge(MovieGraph.java:72)
+信息：the name of one person2 is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：graph.MovieGraph.addVertex(MovieGraph.java:31)
+信息：type of vertex is wrong
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:62)
+信息：The type of vertex Word is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:104)
+信息：The type of edge WordNeighborhood is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:63)
+信息：The type of vertex Person is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:107)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:73)
+信息：The type of vertex Computer is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:142)
+信息：The type of edge NetworkConnection is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:91)
+信息：The type of vertex Actor is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:161)
+信息：The type of edge MovieDirectorRelation is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:249)
+信息：The type of edge SameMovieHyperEdge is not in the graph!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:74)
+信息：The data read Vertex = <"word3"> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "word1", "word2", "Yes"> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge2", "WordNeighborhood", "100", "word1", "word3", "Y"> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "100", "word1", in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type NetworkTopology is wrong
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type NetworkTopology is wrong
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.build(NetworkTopologyFactory.java:206)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge8", "NetworkConnection", "100", "C in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge3", "NetworkConnection", "Computer2","Router2", "No"> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge3", "NetworkConnection", "100", "Computer2","Router2", "No and Yes"> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:116)
+信息：The data read Vertex = <"director1", "Director", <"5> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:231)
+信息：The data read Edge = <"edge4", "MovieActorRelation", "1","actor1", "mo in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:231)
+信息：The data read Edge = <"edge7", "MovieActorRelation", "2","actor1", "movie3", "ook> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:276)
+信息：The data read HyperEdge = <"hyperedge1", "SameMovieHyperEdge", > in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:59)
+信息：The data read in miss attributes!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:59)
+信息：The data read in miss attributes!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:69)
+信息：The data read in miss attributes!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:98)
+信息：The data read Vertex = <"Computer1", "Computer", <>> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:79)
+信息：The data read in miss attributes!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:87)
+信息：The data read in miss attributes!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:83)
+信息：The data read in miss attributes!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:276)
+信息：The data read HyperEdge = <"hyperedge1", "SameMovieHyperEdge", {}> in does not match the regular expression!
+时间：05-24 22:08
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:156)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:162)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:180)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:216)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:93)
+信息：The edge add in can not be an undirectededge!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:93)
+信息：The edge add in can not be an undirectededge!
+时间：05-24 22:08
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:90)
+信息：The edge add in can not be an undirectededge!
+时间：05-24 22:08
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:08
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:245)
+信息：the length of hyperedge must bu more than 1!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.build(GraphPoetFactory.java:189)
+信息：this graph cannot have hyperedge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:201)
+信息：this graph cannot have hyperedge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.build(NetworkTopologyFactory.java:250)
+信息：this graph cannot have hyperedge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:62)
+信息：The type of vertex Person is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:104)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:63)
+信息：The type of vertex Word is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:107)
+信息：The type of edge NetworkConnecion is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:73)
+信息：The type of vertex Person is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:142)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:91)
+信息：The type of vertex Word is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:161)
+信息：The type of edge abcd is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:249)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.NetworkTopology.addEdge(NetworkTopology.java:65)
+信息：the name of one person2 is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.NetworkTopology.addVertex(NetworkTopology.java:24)
+信息：type of vertex is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "-2", "word1", "word2", "Yes"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:89)
+信息：The weight is 22.75 not belong to (0,1]!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:129)
+信息：The data read Edge = <"edge1", "FriendTie", "-0.42", "Person1","Person2", "Yes"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:114)
+信息：The weight is -222.0 not more than 0!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:175)
+信息：The weight is -1.0 not more than 0!
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:75)
+信息：the weight of edge must be (0,1]!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addVertex(SocialNetwork.java:33)
+信息：type of vertex is wrong
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.MovieGraph.addEdge(MovieGraph.java:72)
+信息：the name of one person2 is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.MovieGraph.addVertex(MovieGraph.java:31)
+信息：type of vertex is wrong
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:62)
+信息：The type of vertex Word is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:104)
+信息：The type of edge WordNeighborhood is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:63)
+信息：The type of vertex Person is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:107)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:73)
+信息：The type of vertex Computer is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:142)
+信息：The type of edge NetworkConnection is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:91)
+信息：The type of vertex Actor is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:161)
+信息：The type of edge MovieDirectorRelation is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:249)
+信息：The type of edge SameMovieHyperEdge is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:74)
+信息：The data read Vertex = <"word3"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "word1", "word2", "Yes"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge2", "WordNeighborhood", "100", "word1", "word3", "Y"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "100", "word1", in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type NetworkTopology is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type NetworkTopology is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.build(NetworkTopologyFactory.java:206)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge8", "NetworkConnection", "100", "C in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge3", "NetworkConnection", "Computer2","Router2", "No"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge3", "NetworkConnection", "100", "Computer2","Router2", "No and Yes"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:116)
+信息：The data read Vertex = <"director1", "Director", <"5> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:231)
+信息：The data read Edge = <"edge4", "MovieActorRelation", "1","actor1", "mo in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:231)
+信息：The data read Edge = <"edge7", "MovieActorRelation", "2","actor1", "movie3", "ook> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:276)
+信息：The data read HyperEdge = <"hyperedge1", "SameMovieHyperEdge", > in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:59)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:59)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:69)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:98)
+信息：The data read Vertex = <"Computer1", "Computer", <>> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:79)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:87)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:83)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:276)
+信息：The data read HyperEdge = <"hyperedge1", "SameMovieHyperEdge", {}> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:156)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:162)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:180)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:216)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:93)
+信息：The edge add in can not be an undirectededge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:93)
+信息：The edge add in can not be an undirectededge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:90)
+信息：The edge add in can not be an undirectededge!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:245)
+信息：the length of hyperedge must bu more than 1!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.build(GraphPoetFactory.java:189)
+信息：this graph cannot have hyperedge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:201)
+信息：this graph cannot have hyperedge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.build(NetworkTopologyFactory.java:250)
+信息：this graph cannot have hyperedge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:62)
+信息：The type of vertex Person is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:104)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:63)
+信息：The type of vertex Word is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:107)
+信息：The type of edge NetworkConnecion is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:73)
+信息：The type of vertex Person is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:142)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:91)
+信息：The type of vertex Word is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:161)
+信息：The type of edge abcd is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:249)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.NetworkTopology.addEdge(NetworkTopology.java:65)
+信息：the name of one person2 is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.NetworkTopology.addVertex(NetworkTopology.java:24)
+信息：type of vertex is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "-2", "word1", "word2", "Yes"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:89)
+信息：The weight is 22.75 not belong to (0,1]!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:129)
+信息：The data read Edge = <"edge1", "FriendTie", "-0.42", "Person1","Person2", "Yes"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:114)
+信息：The weight is -222.0 not more than 0!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:175)
+信息：The weight is -1.0 not more than 0!
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:75)
+信息：the weight of edge must be (0,1]!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addVertex(SocialNetwork.java:33)
+信息：type of vertex is wrong
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.MovieGraph.addEdge(MovieGraph.java:72)
+信息：the name of one person2 is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.MovieGraph.addVertex(MovieGraph.java:31)
+信息：type of vertex is wrong
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addVertex(ConcreteGraph.java:57)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：WARN
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:181)
+信息：the label is repeated
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:62)
+信息：The type of vertex Word is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:104)
+信息：The type of edge WordNeighborhood is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:63)
+信息：The type of vertex Person is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:107)
+信息：The type of edge FriendTie is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:73)
+信息：The type of vertex Computer is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:142)
+信息：The type of edge NetworkConnection is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:91)
+信息：The type of vertex Actor is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:161)
+信息：The type of edge MovieDirectorRelation is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:249)
+信息：The type of edge SameMovieHyperEdge is not in the graph!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealvertex(GraphPoetFactory.java:74)
+信息：The data read Vertex = <"word3"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "word1", "word2", "Yes"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge2", "WordNeighborhood", "100", "word1", "word3", "Y"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:116)
+信息：The data read Edge = <"edge1", "WordNeighborhood", "100", "word1", in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type NetworkTopology is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type NetworkTopology is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.build(SocialNetworkFactory.java:158)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.build(NetworkTopologyFactory.java:206)
+信息：the Graph type MovieGraph is wrong
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge8", "NetworkConnection", "100", "C in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge3", "NetworkConnection", "Computer2","Router2", "No"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:176)
+信息：The data read Edge = <"edge3", "NetworkConnection", "100", "Computer2","Router2", "No and Yes"> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:116)
+信息：The data read Vertex = <"director1", "Director", <"5> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:231)
+信息：The data read Edge = <"edge4", "MovieActorRelation", "1","actor1", "mo in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:231)
+信息：The data read Edge = <"edge7", "MovieActorRelation", "2","actor1", "movie3", "ook> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:276)
+信息：The data read HyperEdge = <"hyperedge1", "SameMovieHyperEdge", > in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:59)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealvertex(SocialNetworkFactory.java:59)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:69)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealvertex(NetworkTopologyFactory.java:98)
+信息：The data read Vertex = <"Computer1", "Computer", <>> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:79)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:87)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealvertex(MovieGraphFactory.java:83)
+信息：The data read in miss attributes!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealhyper(MovieGraphFactory.java:276)
+信息：The data read HyperEdge = <"hyperedge1", "SameMovieHyperEdge", {}> in does not match the regular expression!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.ConcreteGraph.addEdge(ConcreteGraph.java:172)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:156)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.NetworkTopologyFactory.dealedge(NetworkTopologyFactory.java:162)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:180)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.MovieGraphFactory.dealedge(MovieGraphFactory.java:216)
+信息：Provided vertices cannot form edges!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:93)
+信息：The edge add in can not be an undirectededge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.SocialNetworkFactory.dealedge(SocialNetworkFactory.java:93)
+信息：The edge add in can not be an undirectededge!
+时间：05-24 22:09
+类型：ERROR
+位置：factory.GraphPoetFactory.dealedge(GraphPoetFactory.java:90)
+信息：The edge add in can not be an undirectededge!
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
+时间：05-24 22:09
+类型：ERROR
+位置：graph.SocialNetwork.addEdge(SocialNetwork.java:110)
+信息：Multiple edges are not allowed in the graph
