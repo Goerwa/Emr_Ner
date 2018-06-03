@@ -6,9 +6,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import Exception.ExceptionofDirection;
 import Exception.ExceptionofInput;
 import Exception.ExceptionofUndirection;
 import Exception.ExceptionofUnproperEdge;
@@ -162,9 +164,17 @@ public class NetworkTopologyApp {
   }
 
   public static void main(String[] args)
-      throws IOException, ExceptionofInput, ExceptionofUnproperEdge, ExceptionofUndirection {
+      throws IOException, ExceptionofInput, ExceptionofUnproperEdge, ExceptionofUndirection, ExceptionofDirection {
+    System.out.println("选择读取文件方式");
+    System.out.println("1.read file by Stream");
+    System.out.println("2.read file by Reader");
+    System.out.println("3.read file by Buffer");
+    System.out.println("4.read file by Scanner");
+    System.out.println("5.read file by java.nio.file.Files");
+    Scanner it = new Scanner(System.in);
+    int n = it.nextInt();
     NetworkTopology graph =
-        (NetworkTopology) new NetworkTopologyFactory().createGraph("src/source/file1.txt");
+        (NetworkTopology) new NetworkTopologyFactory().createGraph("src/source/file1.txt", n);
     // build("src/source/test1.txt",graph);
     // System.out.println(graph.vertices().size());
     // System.out.println(graph.edges().size());

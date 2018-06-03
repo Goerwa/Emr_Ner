@@ -420,15 +420,29 @@ public class SocialNetworkFactory extends GraphFactory {
   }
 
   @Override
-  public Graph<Vertex, Edge> createGraph(String filePath) throws ExceptionofInput,
-      ExceptionofUnproperEdge, ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
+  public Graph<Vertex, Edge> createGraph(String filePath, int n) throws ExceptionofInput,
+      ExceptionofUnproperEdge, ExceptionofDirection, ExceptionofUndirection, IOException {
     SocialNetwork r = new SocialNetwork();
     Scanner sc = new Scanner(System.in);
     String path = filePath;
     boolean flag = true;
     while (flag) {
       try {
-        build3(path, r);
+        if(n == 1) {
+        build1(path, r);
+        }
+        else if(n == 2) {
+          build2(path, r);
+          }
+        else if(n == 3) {
+          build3(path, r);
+          }
+        else if(n == 4) {
+          build4(path, r);
+          }
+        else if(n == 5) {
+          build5(path, r);
+          }
         flag = false;
       } catch (ExceptionofInput e) {
         flag = true;
@@ -444,7 +458,7 @@ public class SocialNetworkFactory extends GraphFactory {
     }
     return r;
   }
-
+  /*
   public static void main(String[] args) throws Exception {
     SocialNetwork graph = new SocialNetwork();
     // Scanner sc = new Scanner(System.in);
@@ -469,4 +483,5 @@ public class SocialNetworkFactory extends GraphFactory {
       TimeGraph tg = new TimeGraph(times);
     }
   }
+  */
 }

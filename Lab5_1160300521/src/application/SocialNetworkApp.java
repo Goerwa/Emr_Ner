@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -54,7 +55,7 @@ public class SocialNetworkApp {
 
   private static void justvertex(String str, SocialNetwork graph) throws ExceptionofInput, IOException {
     System.out.println("your input string is:\t" + str);
-    str = str.toLowerCase().replace("vertex --add", "").replaceAll("”", "").replaceAll("“", "")
+    str = str.replace("vertex --add", "").replaceAll("”", "").replaceAll("“", "")
         .trim();
     String[] info = str.split(" +");
     Person r = (Person) new PersonVertexFactory().createVertex(info[0], info);
@@ -132,8 +133,16 @@ public class SocialNetworkApp {
 
   public static void main(String[] args) throws IOException, ExceptionofInput,
       ExceptionofUnproperEdge, ExceptionofUndirection, ExceptionofDirection {
+    System.out.println("选择读取文件方式");
+    System.out.println("1.read file by Stream");
+    System.out.println("2.read file by Reader");
+    System.out.println("3.read file by Buffer");
+    System.out.println("4.read file by Scanner");
+    System.out.println("5.read file by java.nio.file.Files");
+    Scanner it = new Scanner(System.in);
+    int n = it.nextInt();
     SocialNetwork graph =
-        (SocialNetwork) new SocialNetworkFactory().createGraph("src/source/test2right.txt");
+        (SocialNetwork) new SocialNetworkFactory().createGraph("src/source/file3.txt",n);
     // build("src/source/test1.txt",graph);
     // System.out.println(graph.vertices().size());
     // System.out.println(graph.edges().size());

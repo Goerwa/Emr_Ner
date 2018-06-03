@@ -127,8 +127,16 @@ public class GraphPoetApp {
   public static void main(final String[] args)
       throws IOException, ExceptionofInput,
       ExceptionofUnproperEdge, ExceptionofDirection, ExceptionofUndirection {
+    System.out.println("选择读取文件方式");
+    System.out.println("1.read file by Stream");
+    System.out.println("2.read file by Reader");
+    System.out.println("3.read file by Buffer");
+    System.out.println("4.read file by Scanner");
+    System.out.println("5.read file by java.nio.file.Files");
+    Scanner it = new Scanner(System.in);
+    int n = it.nextInt();
     GraphPoet graph = (GraphPoet) new GraphPoetFactory()
-        .createGraph("src/source/test1.txt");
+        .createGraph("src/source/file4.txt",n);
     // build("src/source/test1.txt",graph);
     // System.out.println(graph.vertices().size());
     // System.out.println(graph.edges().size());

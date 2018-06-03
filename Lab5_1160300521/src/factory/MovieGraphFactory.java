@@ -536,15 +536,29 @@ public class MovieGraphFactory extends GraphFactory {
   }
 
   @Override
-  public Graph<Vertex, Edge> createGraph(String filePath)
-      throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofUndirection, FileNotFoundException {
+  public Graph<Vertex, Edge> createGraph(String filePath, int n)
+      throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofUndirection, IOException {
     MovieGraph r = new MovieGraph();
     Scanner sc = new Scanner(System.in);
     String path = filePath;
     boolean flag = true;
     while (flag) {
       try {
-        build3(path, r);
+        if(n == 1) {
+        build1(path, r);
+        }
+        else if(n == 2) {
+          build2(path, r);
+          }
+        else if(n == 3) {
+          build3(path, r);
+          }
+        else if(n == 4) {
+          build4(path, r);
+          }
+        else if(n == 5) {
+          build5(path, r);
+          }
         flag = false;
       } catch (ExceptionofInput e) {
         flag = true;
@@ -560,7 +574,7 @@ public class MovieGraphFactory extends GraphFactory {
     }
     return r;
   }
-
+  /*
   public static void main(String[] args)
       throws Exception {
     MovieGraph graph = new MovieGraph();
@@ -585,4 +599,5 @@ public class MovieGraphFactory extends GraphFactory {
       TimeGraph tg = new TimeGraph(times);
     }
   }
+  */
 }

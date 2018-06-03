@@ -5,6 +5,7 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -82,7 +83,7 @@ public class FileUi extends JFrame implements ActionListener {
       String filepath = jtf.getText();
       System.out.println(filepath);
       try {
-        graph = (GraphPoet) new GraphPoetFactory().createGraph(filepath);
+        graph = (GraphPoet) new GraphPoetFactory().createGraph(filepath, 3);
       } catch (ExceptionofInput e1) {
         System.out.println(e1);
       } catch (ExceptionofUnproperEdge e1) {
@@ -93,6 +94,9 @@ public class FileUi extends JFrame implements ActionListener {
         // TODO Auto-generated catch block
         e1.printStackTrace();
       } catch (FileNotFoundException e1) {
+        // TODO Auto-generated catch block
+        e1.printStackTrace();
+      } catch (IOException e1) {
         // TODO Auto-generated catch block
         e1.printStackTrace();
       }
