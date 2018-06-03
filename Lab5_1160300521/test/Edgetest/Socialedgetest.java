@@ -1,6 +1,7 @@
 package Edgetest;
 
 import static org.junit.Assert.*;
+import java.io.IOException;
 import org.junit.Test;
 import Exception.ExceptionofInput;
 import Exception.ExceptionofUnproperEdge;
@@ -56,7 +57,7 @@ public class Socialedgetest {
   }
 
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void addsameedges1() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void addsameedges1() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -68,7 +69,7 @@ public class Socialedgetest {
   }
 
   @Test
-  public void adddifferentedges1() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void adddifferentedges1() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -79,7 +80,7 @@ public class Socialedgetest {
   }
 
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void adddifferentedges2() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void adddifferentedges2() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(v1);
     graph.addVertex(v2);

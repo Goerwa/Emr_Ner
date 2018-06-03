@@ -2,6 +2,7 @@ package Graphtest;
 
 import static org.junit.Assert.*;
 import java.awt.Label;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -35,7 +36,7 @@ public class Graphtest {
   // graphsize = 0
   // vertex not in graph
   @Test
-  public void testaddvertexone() throws ExceptionofInput {
+  public void testaddvertexone() throws ExceptionofInput, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
 
     assertTrue("expected True, added vertex to the graph", graph.addVertex(v1));
@@ -47,7 +48,7 @@ public class Graphtest {
   // graphsize = n
   // vertex not in graph
   @Test
-  public void testaddvertexn() throws ExceptionofInput {
+  public void testaddvertexn() throws ExceptionofInput, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -70,7 +71,7 @@ public class Graphtest {
   // weight = positive
   // source, target = in graph
   @Test
-  public void testaddEdgeone() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgeone() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -91,7 +92,7 @@ public class Graphtest {
   // weight = positive
   // source, target = in graph
   @Test
-  public void testaddEdgen() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgen() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -117,7 +118,7 @@ public class Graphtest {
   // weight = positive
   // source, target = in graph
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void testaddEdgenotnew() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgenotnew() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -139,7 +140,7 @@ public class Graphtest {
   // weight = positive
   // source, target = in graph
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void testaddEdgeweightzero() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgeweightzero() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -160,7 +161,7 @@ public class Graphtest {
   // weight = positive
   // source, target = not in graph
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void testaddEdgenotin() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgenotin() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addEdge(e1);
     assertFalse("expected addEdge false", graph.addEdge(e1));
@@ -185,7 +186,7 @@ public class Graphtest {
   // vertex = in graph
   // graph size = 1
   @Test
-  public void testremoveVertexone() throws ExceptionofInput {
+  public void testremoveVertexone() throws ExceptionofInput, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     assertTrue("expected True, vertex in the Graph", graph.removeVertex(v1));
@@ -195,7 +196,7 @@ public class Graphtest {
   // vertex = in graph
   // graph size = n
   @Test
-  public void testremoveVertexn() throws ExceptionofInput {
+  public void testremoveVertexn() throws ExceptionofInput, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -219,7 +220,7 @@ public class Graphtest {
   // edge = not in graph
   // edge size = 0
   @Test
-  public void testremoveEdgenotin() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testremoveEdgenotin() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
 
     assertFalse("expected False, vertex not in the Graph", graph.removeEdge(e1));
@@ -229,7 +230,7 @@ public class Graphtest {
   // edge = in graph
   // edge size = 1
   @Test
-  public void testremoveEdgeone() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testremoveEdgeone() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -241,7 +242,7 @@ public class Graphtest {
   // edge = in graph
   // edge size = n
   @Test
-  public void testremoveEdgen() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testremoveEdgen() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -268,7 +269,7 @@ public class Graphtest {
   // nember of source = 1
   // edge num = 1
   @Test
-  public void testsourceone() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testsourceone() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -284,7 +285,7 @@ public class Graphtest {
   // nember of source = n
   // edge num = n
   @Test
-  public void testsourcen() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testsourcen() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -315,7 +316,7 @@ public class Graphtest {
   // nember of target = 0
   // edge num = 0
   @Test
-  public void testtargetsnotin() throws ExceptionofInput {
+  public void testtargetsnotin() throws ExceptionofInput, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
 
@@ -326,7 +327,7 @@ public class Graphtest {
   // nember of target = 1
   // edge num = 1
   @Test
-  public void testtargetone() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testtargetone() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -342,7 +343,7 @@ public class Graphtest {
   // nember of target = n
   // edge num = n
   @Test
-  public void testtargetn() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testtargetn() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);
@@ -371,7 +372,7 @@ public class Graphtest {
   // vertex = 1
   // vertex = in graph
   @Test
-  public void testgetdistancesame() throws ExceptionofInput {
+  public void testgetdistancesame() throws ExceptionofInput, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
 
@@ -381,7 +382,7 @@ public class Graphtest {
   // vertex = 1
   // vertex = not in graph
   @Test
-  public void testgetdistancenotin() throws ExceptionofInput {
+  public void testgetdistancenotin() throws ExceptionofInput, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
 
@@ -391,7 +392,7 @@ public class Graphtest {
   // vertex = n
   // vertex = in graph
   @Test
-  public void testgetdistancen() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testgetdistancen() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     Graph<Vertex, Edge> graph = Graph.empty();
     graph.addVertex(v1);
     graph.addVertex(v2);

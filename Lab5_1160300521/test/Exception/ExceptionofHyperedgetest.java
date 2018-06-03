@@ -1,5 +1,6 @@
 package Exception;
 
+import java.io.FileNotFoundException;
 import org.junit.Test;
 import factory.GraphPoetFactory;
 import factory.MovieGraphFactory;
@@ -21,10 +22,10 @@ public class ExceptionofHyperedgetest {
   // 超边中的节点数 = 小于2
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testhyper1() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, FileNotFoundException {
     MovieGraph g4 = new MovieGraph();
     MovieGraphFactory f4 = new MovieGraphFactory();
-    f4.build("test/source/testhyper1.txt", g4);
+    f4.build1("test/source/testhyper1.txt", g4);
   }
   // Testing strategy
   //
@@ -36,30 +37,30 @@ public class ExceptionofHyperedgetest {
   // 是否可出现超边 = 否
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testhyperedge1() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     GraphPoet g1 = new GraphPoet();
     GraphPoetFactory f1 = new GraphPoetFactory();
-    f1.build("test/source/testhyperedge1.txt", g1);
+    f1.build1("test/source/testhyperedge1.txt", g1);
   }
 
   // 图类型 = SocialNetwork
   // 是否可出现超边 = 否
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testhyperedge2() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     SocialNetwork g2 = new SocialNetwork();
     SocialNetworkFactory f2 = new SocialNetworkFactory();
-    f2.build("test/source/testhyperedge2.txt", g2);
+    f2.build1("test/source/testhyperedge2.txt", g2);
   }
 
   // 图类型 = NetworkTopology
   // 是否可出现超边 = 否
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testhyperedge3() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     NetworkTopology g3 = new NetworkTopology();
     NetworkTopologyFactory f3 = new NetworkTopologyFactory();
-    f3.build("test/source/testhyperedge3.txt", g3);
+    f3.build1("test/source/testhyperedge3.txt", g3);
   }
 
 

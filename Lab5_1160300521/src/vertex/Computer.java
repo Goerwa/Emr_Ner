@@ -29,7 +29,7 @@ public class Computer extends Vertex {
   public Computer(final String label, final String i) {
     super(label);
     this.ip = i;
-    checkRep();
+    //checkRep();
   }
   /**
    * to construct.
@@ -39,7 +39,7 @@ public class Computer extends Vertex {
   public Computer(final String label) {
     super(label);
     this.ip = "192.108.1.1";
-    checkRep();
+    //checkRep();
   }
  /**
   * to get ip.
@@ -68,9 +68,9 @@ public class Computer extends Vertex {
 
   @Override
   public final void fillVertexInfo(final String[] args) {
-    assert args[2] != null;
+    //assert args[2] != null;
     this.ip = args[2];
-    checkRep();
+    //checkRep();
   }
 
   @Override

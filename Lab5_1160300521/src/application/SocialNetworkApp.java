@@ -52,7 +52,7 @@ public class SocialNetworkApp {
     }
   }
 
-  private static void justvertex(String str, SocialNetwork graph) throws ExceptionofInput {
+  private static void justvertex(String str, SocialNetwork graph) throws ExceptionofInput, IOException {
     System.out.println("your input string is:\t" + str);
     str = str.toLowerCase().replace("vertex --add", "").replaceAll("”", "").replaceAll("“", "")
         .trim();
@@ -62,7 +62,7 @@ public class SocialNetworkApp {
   }
 
   private static void justedge(String str, SocialNetwork graph)
-      throws ExceptionofInput, ExceptionofUnproperEdge {
+      throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     System.out.println("your input string is:\t" + str);
     str = str.toLowerCase().replace("edge --add", "").replace("”", "").replace("“", "")
         .replace("=", " ").trim();
@@ -103,7 +103,7 @@ public class SocialNetworkApp {
   }
 
   private static void justremovee(String str, SocialNetwork graph)
-      throws ExceptionofInput, ExceptionofUnproperEdge {
+      throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     System.out.println("your input string is:\t" + str);
     System.out.println(graph.edges().size());
     String r = str.replace("edge --delete", "").trim();

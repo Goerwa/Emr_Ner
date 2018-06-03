@@ -1,5 +1,6 @@
 package factory;
 
+import java.io.FileNotFoundException;
 import java.util.HashSet;
 import java.util.Set;
 import Exception.ExceptionofDirection;
@@ -13,5 +14,5 @@ import vertex.Vertex;
 
 abstract class GraphFactory {
   abstract public Graph<Vertex, Edge> createGraph(String filePath) throws ExceptionofInput,
-      ExceptionofUnproperEdge, ExceptionofUndirection, ExceptionofDirection;
+      ExceptionofUnproperEdge, ExceptionofUndirection, ExceptionofDirection, FileNotFoundException;
 }

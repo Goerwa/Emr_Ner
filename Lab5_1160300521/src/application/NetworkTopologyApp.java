@@ -43,14 +43,24 @@ public class NetworkTopologyApp {
 
   private void help() {
     System.out.println("vertex --add label type");
-    // vertex --add “label” “word” [a-zA-Z_0-9]]
+    /* vertex --add “l5c1” “Computer” 
+       vertex --add “l5r1” “Router”
+       vertex --add “l5r2” “Router”
+       vertex --add “l5r3” “Router”
+       edge --add “e1” “NetworkConnection” weight=Y 2 directed=N “l5c1” “l5r1”*/
     System.out.println("edge --add label type [weighted=Y|N] [weight] [directed=Y|N] v1, v2");
-    // edge --add “label” “word” weight=Y 2 directed=Y “This” “is”
+    // edge --add “e1” “NetworkConnection” weight=Y 2 directed=N “l5c1” “l5r1”
+    // edge --add “e2” “NetworkConnection” weight=Y 2 directed=N “l5r2” “l5r1”
+    // edge --add “e3” “NetworkConnection” weight=Y 2 directed=N “l5r3” “l5r1”
     System.out.println("vertex --delete regex");
-    // vertex --delete ab*
-    // vertex --delete a*b*
+    // vertex --delete l5c1
+    // vertex --delete l5r1
+    // vertex --delete l5r2
+    // vertex --delete l5r3
     System.out.println("edge --delete regex");
-    // edge --delete cd*
+    // edge --delete e1
+    // edge --delete e2
+    // edge --delete e3
     // edge --delete c*d*
     System.out.println("hyperedge --add label type vertex1, ..., vertexn");
     // hyperedge --add “ForeverYoung” “SameMovieHyperEdge” “abb” ,“abbb” ,“aabb”
@@ -64,16 +74,18 @@ public class NetworkTopologyApp {
     }
   }
 
-  private static void justvertex(String str, NetworkTopology graph) throws ExceptionofInput {
+  private static void justvertex(String str, NetworkTopology graph) throws ExceptionofInput, IOException {
     System.out.println("your input string is:\t" + str);
-    str = str.toLowerCase().replace("vertex --add", "").replaceAll("”", "").replaceAll("“", "")
+    str = str.replace("vertex --add", "").replaceAll("”", "").replaceAll("“", "")
         .trim();
     String[] info = str.split(" +");
+    printstr(info);
     if (info[1].equals("Computer")) {
-      Computer r = (Computer) new ComputerVertexFactory().createVertex(info[0], info);
+      Computer r = (Computer) new Computer(info[0]);
+      System.out.println("add");
       graph.addVertex(r);
     } else if (info[1].equals("Router")) {
-      Router r = (Router) new RouterVertexFactory().createVertex(info[0], info);
+      Router r = (Router) new Router(info[0]);
       graph.addVertex(r);
     } else if (info[1].equals("Server")) {
       Server r = (Server) new ServerVertexFactory().createVertex(info[0], info);
@@ -84,13 +96,12 @@ public class NetworkTopologyApp {
   }
 
   private static void justedge(String str, NetworkTopology graph)
-      throws ExceptionofInput, ExceptionofUnproperEdge {
+      throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     System.out.println("your input string is:\t" + str);
-    str = str.toLowerCase().replace("edge --add", "").replace("”", "").replace("“", "")
+    str = str.replace("edge --add", "").replace("”", "").replace("“", "")
         .replace("=", " ").trim();
     String[] info = str.split(" +");
-    printstr(info);
-
+    //printstr(info);
     Vertex src = graph.findvertexbylabel(info[7]);
     Vertex tar = graph.findvertexbylabel(info[8]);
     List<Vertex> vers = new ArrayList<>();
@@ -109,7 +120,7 @@ public class NetworkTopologyApp {
   private static void justremovev(String str, NetworkTopology graph) {
     System.out.println("your input string is:\t" + str);
     System.out.println(graph.vertices().size());
-    String r = str.replace("vertex --delete", "").trim();
+    String r = str.replace("vertex --delete", "").replaceAll(" ", "");
     System.out.println(r);
     Pattern v = Pattern.compile(r);
     Set<Vertex> vertices = graph.vertices();
@@ -123,10 +134,10 @@ public class NetworkTopologyApp {
   }
 
   private static void justremovee(String str, NetworkTopology graph)
-      throws ExceptionofInput, ExceptionofUnproperEdge {
+      throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     System.out.println("your input string is:\t" + str);
     System.out.println(graph.edges().size());
-    String r = str.replace("edge --delete", "").trim();
+    String r = str.replace("edge --delete", "").replaceAll(" ", "");
     System.out.println(r);
     Pattern v = Pattern.compile(r);
     Set<Edge> edges = graph.edges();
@@ -153,7 +164,7 @@ public class NetworkTopologyApp {
   public static void main(String[] args)
       throws IOException, ExceptionofInput, ExceptionofUnproperEdge, ExceptionofUndirection {
     NetworkTopology graph =
-        (NetworkTopology) new NetworkTopologyFactory().createGraph("src/source/test3.txt");
+        (NetworkTopology) new NetworkTopologyFactory().createGraph("src/source/file1.txt");
     // build("src/source/test1.txt",graph);
     // System.out.println(graph.vertices().size());
     // System.out.println(graph.edges().size());

@@ -19,10 +19,11 @@ public class NetworkTopology extends ConcreteGraph {
   @Override
   public final boolean addVertex(final Vertex net) throws ExceptionofInput,
   IOException {
+    /*
     if (!confirmclass(net)) {
       logger.error("type of vertex is wrong");
       throw new ExceptionofInput("type of vertex is wrong");
-    }
+    }*/
     super.addVertex(net);
     return true;
   }
@@ -46,6 +47,7 @@ public class NetworkTopology extends ConcreteGraph {
   @Override
   public boolean addEdge(final Edge e) throws ExceptionofInput,
   ExceptionofUnproperEdge, IOException {
+    /*
     Vertex person1 = e.getsource();
     Vertex person2 = e.gettarget();
 
@@ -54,7 +56,7 @@ public class NetworkTopology extends ConcreteGraph {
       throw new ExceptionofUnproperEdge("the source and target vertex"
           + "cannot be the same!");
     }
-
+    */
     super.addEdge(e);
     return true;
   }

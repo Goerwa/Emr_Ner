@@ -6,7 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import org.apache.log4j.Logger;
 import Exception.ExceptionofInput;
 import Exception.ExceptionofUnproperEdge;
@@ -24,8 +26,8 @@ import vertex.Vertex;
  *
  */
 public class MovieGraph extends ConcreteGraph {
-  /** List of SameMovieHyperEdge.*/
-  private List<SameMovieHyperEdge> hyperedge = new ArrayList<>();
+  /** set of SameMovieHyperEdge.*/
+  private Set<SameMovieHyperEdge> hyperedge = new HashSet<>();
   Logger logger = Logger.getLogger(SocialNetworkFactory.class);
   /** used to write operation.*/
   private FileOutputStream outSTr = null;
@@ -44,23 +46,12 @@ public class MovieGraph extends ConcreteGraph {
   @Override
   public final boolean addVertex(final Vertex net) throws ExceptionofInput,
   IOException {
+    /*
     if (!confirmclass(net)) {
       logger.error("type of vertex is wrong");
       throw new ExceptionofInput("type of vertex is wrong");
     }
-    if (net.tellclass().equals("Actor") || net.tellclass().equals("Director")) {
-      Person n = (Person) net;
-      Buff.write(("Vertex = <\"" + n.getlabel() + "\",\"" + n.tellclass()
-      + "\", <\"" + n.getgender() + "\", \"" + n.getyear() + "\">>\n")
-          .getBytes());
-      Buff.flush();
-    } else if (net.tellclass().equals("Movie")) {
-      Movie n = (Movie) net;
-      Buff.write(("Vertex = <\"" + n.getlabel() + "\",\"" + n.tellclass()
-      + "\", <\"" + n.getyear() + "\", \"" + n.getnation() + "\", \""
-          + n.getscore() + "\">>\n").getBytes());
-      Buff.flush();
-    }
+    }*/
     super.addVertex(net);
     return true;
   }
@@ -85,13 +76,7 @@ public class MovieGraph extends ConcreteGraph {
   @Override
   public final boolean addEdge(final Edge e) throws ExceptionofInput,
   ExceptionofUnproperEdge, IOException {
-    Vertex person1 = e.getsource();
-    Vertex person2 = e.gettarget();
-    if (person1.getlabel().equals(person2.getlabel())) {
-      logger.error("the source and target vertex cannot be the same!");
-      throw new ExceptionofUnproperEdge("the source and target vertex"
-          + "cannot be the same!");
-    }
+    /*
     if (e.tellclass().equals("MovieDirectorRelation")) {
       MovieDirectorRelation n = (MovieDirectorRelation) e;
       Buff.write(("Edge = <\"" + n.getlabel() + "\", \"" + n.tellclass()
@@ -104,7 +89,7 @@ public class MovieGraph extends ConcreteGraph {
       + "\", <\"" + n.getweight()  + "\", \"" + n.getsource().getlabel()
       + "\", \"" + n.gettarget().getlabel() + "No" + "\">>\n").getBytes());
       Buff.flush();
-    }
+    }*/
     super.addEdge(e);
     return true;
   }

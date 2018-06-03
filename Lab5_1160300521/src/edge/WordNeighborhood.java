@@ -43,7 +43,7 @@ public class WordNeighborhood extends DirectedEdge {
   public WordNeighborhood(final String label, final Vertex src,
       final Vertex arg,  final Double weight) {
     super(label, src, arg, weight);
-    checkRep();
+    //checkRep();
   }
   /**
    * checkrep to assert weight is more than 0

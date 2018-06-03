@@ -43,7 +43,7 @@ public class FriendTie extends DirectedEdge {
    */
   public FriendTie(final Vertex src, final Vertex arg, final double weight) {
     super(src, arg, weight);
-    checkRep();
+    //checkRep();
   }
   /**
    * to construct.
@@ -59,7 +59,7 @@ public class FriendTie extends DirectedEdge {
   public FriendTie(final String label, final Vertex src,
       final Vertex arg, final double weight) {
     super(label, src, arg, weight);
-    checkRep();
+    //checkRep();
   }
   /**
    * checkrep to assert weight is [0,1]

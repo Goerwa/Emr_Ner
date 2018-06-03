@@ -21,7 +21,7 @@ public class Word extends Vertex {
    */
   public Word(final String label) {
     super(label);
-    checkRep();
+    //checkRep();
   }
   /** checkrep to assert label is not null.*/
   private void checkRep() {
@@ -34,7 +34,7 @@ public class Word extends Vertex {
    */
   @Override
   public final void fillVertexInfo(final String[] args) {
-    assert args != null;
+    //assert args != null;
     return;
   }
 

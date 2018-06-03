@@ -1,6 +1,7 @@
 package Graphtest;
 
 import static org.junit.Assert.assertTrue;
+import java.io.IOException;
 import org.junit.Test;
 import Exception.ExceptionofInput;
 import Exception.ExceptionofUnproperEdge;
@@ -27,7 +28,7 @@ public class MovieGraphtest {
   // vertex = null, not null
   // type of vertex = not include
   @Test(expected = ExceptionofInput.class)
-  public void testaddVertexnot() throws ExceptionofInput {
+  public void testaddVertexnot() throws ExceptionofInput, IOException {
     MovieGraph graph = new MovieGraph();
     Word v1 = new Word("word");
 
@@ -36,7 +37,7 @@ public class MovieGraphtest {
 
   // vertex = null
   @Test(expected = AssertionError.class)
-  public void testaddVertexnull() throws ExceptionofInput {
+  public void testaddVertexnull() throws ExceptionofInput, IOException {
     MovieGraph graph = new MovieGraph();
     Actor lee = new Actor(null);
     graph.addVertex(lee);
@@ -47,7 +48,7 @@ public class MovieGraphtest {
   // vertex = not in graph
   // graph size = 0
   @Test
-  public void testaddVertexonepersonnograph() throws ExceptionofInput {
+  public void testaddVertexonepersonnograph() throws ExceptionofInput, IOException {
     MovieGraph graph = new MovieGraph();
     Actor lee = new Actor("lee");
 
@@ -59,7 +60,7 @@ public class MovieGraphtest {
   // vertex = not in graph
   // graph size = 1
   @Test
-  public void testaddVertexonepersononegraph() throws ExceptionofInput {
+  public void testaddVertexonepersononegraph() throws ExceptionofInput, IOException {
     MovieGraph graph = new MovieGraph();
     Actor abc = new Actor("abc");
     graph.addVertex(abc);
@@ -73,7 +74,7 @@ public class MovieGraphtest {
   // vertex = not in graph
   // graph size = n
   @Test
-  public void testaddVertexNgraph() throws ExceptionofInput {
+  public void testaddVertexNgraph() throws ExceptionofInput, IOException {
     MovieGraph graph = new MovieGraph();
     graph.addVertex(a1);
     graph.addVertex(a2);
@@ -94,7 +95,7 @@ public class MovieGraphtest {
 
   // target or source = not in graph
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void testaddEdgein() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgein() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     MovieGraph graph = new MovieGraph();
     graph.addVertex(a1);
     // System.out.println(a.tellclass());
@@ -105,7 +106,7 @@ public class MovieGraphtest {
 
   // target or soure null, not null
   @Test(expected = AssertionError.class)
-  public void testaddEdgenull() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgenull() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     MovieGraph graph = new MovieGraph();
     graph.addVertex(a1);
     Movie d = new Movie(null);
@@ -116,7 +117,7 @@ public class MovieGraphtest {
   // target or soure null, not null
   // edge first, new
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void testaddEdgesame() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgesame() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     MovieGraph graph = new MovieGraph();
     graph.addVertex(a1);
     graph.addVertex(m1);

@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
 import Exception.ExceptionofDirection;
 import Exception.ExceptionofDirectionTest;
 import Exception.ExceptionofInput;
+import Exception.ExceptionofUndirection;
 import Exception.ExceptionofUnproperEdge;
 import edge.Edge;
 import edge.WordNeighborhood;
@@ -52,7 +53,7 @@ public class GraphPoetApp {
     }
   }
 
-  private static void justvertex(String str, Graph graph) throws ExceptionofInput {
+  private static void justvertex(String str, Graph graph) throws ExceptionofInput, IOException {
     System.out.println("your input string is:\t" + str);
     str = str.toLowerCase().replace("vertex --add", "").replaceAll("”", "").replaceAll("“", "")
         .trim();
@@ -62,7 +63,7 @@ public class GraphPoetApp {
   }
 
   private static void justedge(String str, Graph graph)
-      throws ExceptionofInput, ExceptionofUnproperEdge {
+      throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     System.out.println("your input string is:\t" + str);
     str = str.toLowerCase().replace("edge --add", "").replace("”", "").replace("“", "")
         .replace("=", " ").trim();
@@ -96,7 +97,7 @@ public class GraphPoetApp {
   }
 
   private static void justremovee(String str, Graph graph)
-      throws ExceptionofInput, ExceptionofUnproperEdge {
+      throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     System.out.println("your input string is:\t" + str);
     System.out.println(graph.edges().size());
     String r = str.replace("edge --delete", "").trim();
@@ -125,7 +126,7 @@ public class GraphPoetApp {
 
   public static void main(final String[] args)
       throws IOException, ExceptionofInput,
-      ExceptionofUnproperEdge, ExceptionofDirection {
+      ExceptionofUnproperEdge, ExceptionofDirection, ExceptionofUndirection {
     GraphPoet graph = (GraphPoet) new GraphPoetFactory()
         .createGraph("src/source/test1.txt");
     // build("src/source/test1.txt",graph);

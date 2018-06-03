@@ -2,6 +2,7 @@ package Graphtest;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import java.io.IOException;
 import java.util.Set;
 import org.junit.Test;
 import Exception.ExceptionofInput;
@@ -27,7 +28,7 @@ public class FriendShipTest {
 
   // type of vertex = not person
   @Test(expected = ExceptionofInput.class)
-  public void testaddVertexnot() throws ExceptionofInput {
+  public void testaddVertexnot() throws ExceptionofInput, IOException {
     SocialNetwork graph = new SocialNetwork();
     Word v1 = new Word("word");
 
@@ -35,7 +36,7 @@ public class FriendShipTest {
   }
 
   @Test(expected = AssertionError.class)
-  public void testaddedgeweight1() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddedgeweight1() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(a);
     graph.addVertex(b);
@@ -45,7 +46,7 @@ public class FriendShipTest {
   }
 
   @Test
-  public void testaddedgeweight2() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddedgeweight2() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(a);
     graph.addVertex(b);
@@ -55,7 +56,7 @@ public class FriendShipTest {
   }
 
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void testaddedgeweight3() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddedgeweight3() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(a);
     graph.addVertex(b);
@@ -77,7 +78,7 @@ public class FriendShipTest {
   // vertex = not in graph
   // graph size = 0
   @Test
-  public void testaddVertexonepersonnograph() throws ExceptionofInput {
+  public void testaddVertexonepersonnograph() throws ExceptionofInput, IOException {
     SocialNetwork graph = new SocialNetwork();
     Person lee = new Person("lee");
 
@@ -89,7 +90,7 @@ public class FriendShipTest {
   // vertex = not in graph
   // graph size = 1
   @Test
-  public void testaddVertexonepersononegraph() throws ExceptionofInput {
+  public void testaddVertexonepersononegraph() throws ExceptionofInput, IOException {
     SocialNetwork graph = new SocialNetwork();
     Person abc = new Person("abc");
     graph.addVertex(abc);
@@ -103,7 +104,7 @@ public class FriendShipTest {
   // vertex = not in graph
   // graph size = n
   @Test
-  public void testaddVertexNgraph() throws ExceptionofInput {
+  public void testaddVertexNgraph() throws ExceptionofInput, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(a);
     graph.addVertex(b);
@@ -127,7 +128,7 @@ public class FriendShipTest {
 
   // target or source = same
   @Test(expected = AssertionError.class)
-  public void testaddEdgesame() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgesame() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     Person rachel = new Person("Rachel");
     FriendTie e = new FriendTie(rachel, rachel, 1.0);
@@ -135,7 +136,7 @@ public class FriendShipTest {
   }
 
   @Test
-  public void testaddedge1() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddedge1() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(a);
     graph.addVertex(b);
@@ -148,7 +149,7 @@ public class FriendShipTest {
   }
 
   @Test
-  public void testaddedge2() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddedge2() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(a);
     graph.addVertex(b);
@@ -178,7 +179,7 @@ public class FriendShipTest {
 
   // test weight = 0.0
   @Test
-  public void testaddedge3() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddedge3() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(a);
     graph.addVertex(b);
@@ -209,7 +210,7 @@ public class FriendShipTest {
   }
 
   @Test
-  public void testaddedge4() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddedge4() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     SocialNetwork graph = new SocialNetwork();
     graph.addVertex(a);
     graph.addVertex(b);

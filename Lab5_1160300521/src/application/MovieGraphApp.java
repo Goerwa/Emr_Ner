@@ -72,7 +72,7 @@ public class MovieGraphApp {
     }
   }
 
-  private static void justvertex(String str, MovieGraph graph) throws ExceptionofInput {
+  private static void justvertex(String str, MovieGraph graph) throws ExceptionofInput, IOException {
     System.out.println("your input string is:\t" + str);
     str = str.toLowerCase().replace("vertex --add", "").replaceAll("”", "").replaceAll("“", "")
         .trim();
@@ -92,7 +92,7 @@ public class MovieGraphApp {
   }
 
   private static void justedge(String str, MovieGraph graph)
-      throws ExceptionofInput, ExceptionofUnproperEdge {
+      throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     System.out.println("your input string is:\t" + str);
     str = str.toLowerCase().replace("edge --add", "").replace("”", "").replace("“", "")
         .replace("=", " ").trim();
@@ -134,7 +134,7 @@ public class MovieGraphApp {
   }
 
   private static void justremovee(String str, MovieGraph graph)
-      throws ExceptionofInput, ExceptionofUnproperEdge {
+      throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     System.out.println("your input string is:\t" + str);
     System.out.println(graph.edges().size());
     String r = str.replace("edge --delete", "").trim();

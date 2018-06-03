@@ -1,6 +1,7 @@
 package Exception;
 
 import static org.junit.Assert.assertTrue;
+import java.io.IOException;
 import org.junit.Test;
 import edge.WordNeighborhood;
 import factory.GraphPoetFactory;
@@ -41,7 +42,7 @@ public class ExceptionofLabeltest {
 
   @Test
   public void testlabel1() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, IOException {
     GraphPoet g1 = new GraphPoet();
     g1.addVertex(w1);
     g1.addVertex(w2);
@@ -58,7 +59,7 @@ public class ExceptionofLabeltest {
   // 是否出现重复 = 是
   @Test
   public void testlabel2() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, IOException {
     GraphPoet g1 = new GraphPoet();
     g1.addVertex(w1);
     g1.addVertex(w2);
@@ -85,7 +86,7 @@ public class ExceptionofLabeltest {
   // 是否出现重复 = 是
   @Test
   public void testlabel3() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, IOException {
     SocialNetwork g2 = new SocialNetwork();
     g2.addVertex(p1);
     g2.addVertex(p2);
@@ -101,7 +102,7 @@ public class ExceptionofLabeltest {
   // 是否出现重复 = 是
   @Test
   public void testlabel4() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, IOException {
     SocialNetwork g2 = new SocialNetwork();
     g2.addVertex(p1);
     g2.addVertex(p2);
@@ -128,7 +129,7 @@ public class ExceptionofLabeltest {
   // 是否出现重复 = 是
   @Test
   public void testlabel5() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, IOException {
     NetworkTopology g3 = new NetworkTopology();
     g3.addVertex(c1);
     g3.addVertex(r1);
@@ -145,7 +146,7 @@ public class ExceptionofLabeltest {
   // 是否出现多重边 = 是
   @Test
   public void testlabel6() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, IOException {
     NetworkTopology g3 = new NetworkTopology();
     g3.addVertex(c1);
     g3.addVertex(r1);
@@ -173,7 +174,7 @@ public class ExceptionofLabeltest {
   // 是否出现重复 = 是
   @Test
   public void testlabel7() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, IOException {
     MovieGraph g4 = new MovieGraph();
     g4.addVertex(m1);
     g4.addVertex(a1);
@@ -190,7 +191,7 @@ public class ExceptionofLabeltest {
   // 是否出现重复 = 是
   @Test
   public void testlabel8() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, IOException {
     MovieGraph g4 = new MovieGraph();
     g4.addVertex(m1);
     g4.addVertex(a1);

@@ -1,5 +1,6 @@
 package Exception;
 
+import java.io.FileNotFoundException;
 import org.junit.Test;
 import factory.GraphPoetFactory;
 import factory.MovieGraphFactory;
@@ -21,60 +22,60 @@ public class ExceptionofUnproper {
   // 是否出现多重边 = 是
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testmulti1() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, FileNotFoundException {
     GraphPoet g1 = new GraphPoet();
     GraphPoetFactory f1 = new GraphPoetFactory();
-    f1.build("test/source/testmulti1.txt", g1);
+    f1.build1("test/source/testmulti1.txt", g1);
   }
 
   // 图类型 = SocialNetwork
   // 是否出现多重边 = 是
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testmulti2() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, FileNotFoundException {
     SocialNetwork g2 = new SocialNetwork();
     SocialNetworkFactory f2 = new SocialNetworkFactory();
-    f2.build("test/source/testmulti2.txt", g2);
+    f2.build1("test/source/testmulti2.txt", g2);
   }
 
   // 图类型 = SocialNetwork
   // 是否出现多重边 = 是
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testmulti3() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, FileNotFoundException {
     SocialNetwork g2 = new SocialNetwork();
     SocialNetworkFactory f2 = new SocialNetworkFactory();
-    f2.build("test/source/testmulti3.txt", g2);
+    f2.build1("test/source/testmulti3.txt", g2);
   }
 
   // 图类型 = NetworkTopology
   // 是否出现多重边 = 是
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testmulti4() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, FileNotFoundException {
     NetworkTopology g3 = new NetworkTopology();
     NetworkTopologyFactory f3 = new NetworkTopologyFactory();
-    f3.build("test/source/testmulti4.txt", g3);
+    f3.build1("test/source/testmulti4.txt", g3);
   }
 
   // 图类型 = MovieGraph
   // 是否出现多重边 = 是
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testmulti5() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, FileNotFoundException {
     MovieGraph g4 = new MovieGraph();
     MovieGraphFactory f4 = new MovieGraphFactory();
-    f4.build("test/source/testmulti5.txt", g4);
+    f4.build1("test/source/testmulti5.txt", g4);
   }
 
   // 图类型 = MovieGraph
   // 是否出现多重边 = 是
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testmulti6() throws ExceptionofInput, ExceptionofUnproperEdge, ExceptionofDirection,
-      ExceptionofUndirection {
+      ExceptionofUndirection, FileNotFoundException {
     MovieGraph g4 = new MovieGraph();
     MovieGraphFactory f4 = new MovieGraphFactory();
-    f4.build("test/source/testmulti6.txt", g4);
+    f4.build1("test/source/testmulti6.txt", g4);
   }
 
   // Testing strategy
@@ -87,50 +88,50 @@ public class ExceptionofUnproper {
   // 顶点间是否可形成变 = 否
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testwrongedge1() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     NetworkTopology g3 = new NetworkTopology();
     NetworkTopologyFactory f3 = new NetworkTopologyFactory();
-    f3.build("test/source/testwrongedge1.txt", g3);
+    f3.build1("test/source/testwrongedge1.txt", g3);
   }
 
   // 图类型 = NetworkTopology
   // 顶点间是否可形成变 = 否
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testwrongedge2() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     NetworkTopology g3 = new NetworkTopology();
     NetworkTopologyFactory f3 = new NetworkTopologyFactory();
-    f3.build("test/source/testwrongedge2.txt", g3);
+    f3.build1("test/source/testwrongedge2.txt", g3);
   }
 
   // 图类型 = MovieGraph
   // 顶点间是否可形成变 = 否
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testwrongedge3() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     MovieGraph g4 = new MovieGraph();
     MovieGraphFactory f4 = new MovieGraphFactory();
-    f4.build("test/source/testwrongedge3.txt", g4);
+    f4.build1("test/source/testwrongedge3.txt", g4);
   }
 
   // 图类型 = MovieGraph
   // 顶点间是否可形成变 = 否
   @Test(expected = ExceptionofUnproperEdge.class)
   public void testwrongedge4() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     MovieGraph g4 = new MovieGraph();
     MovieGraphFactory f4 = new MovieGraphFactory();
-    f4.build("test/source/testwrongedge4.txt", g4);
+    f4.build1("test/source/testwrongedge4.txt", g4);
   }
 
   // 图类型 = MovieGraph
   // 顶点间是否可形成变 = 否
   @Test(expected = AssertionError.class)
   public void testwrongedge5() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     MovieGraph g4 = new MovieGraph();
     MovieGraphFactory f4 = new MovieGraphFactory();
-    f4.build("test/source/testwrongedge5.txt", g4);
+    f4.build1("test/source/testwrongedge5.txt", g4);
   }
 
 }

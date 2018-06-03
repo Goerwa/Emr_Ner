@@ -1,6 +1,7 @@
 package Graphtest;
 
 import static org.junit.Assert.assertTrue;
+import java.io.IOException;
 import org.junit.Test;
 import Exception.ExceptionofInput;
 import Exception.ExceptionofUnproperEdge;
@@ -27,7 +28,7 @@ public class NetworkTest {
 
   // type of vertex = not person
   @Test(expected = ExceptionofInput.class)
-  public void testaddVertexnot() throws ExceptionofInput {
+  public void testaddVertexnot() throws ExceptionofInput, IOException {
     NetworkTopology graph = new NetworkTopology();
     Word v1 = new Word("word");
 
@@ -37,7 +38,7 @@ public class NetworkTest {
   // vertex = not in graph
   // graph size = 0
   @Test
-  public void testaddVertexonepersonnograph() throws ExceptionofInput {
+  public void testaddVertexonepersonnograph() throws ExceptionofInput, IOException {
     NetworkTopology graph = new NetworkTopology();
     Computer lee = new Computer("lee");
 
@@ -49,7 +50,7 @@ public class NetworkTest {
   // vertex = not in graph
   // graph size = 1
   @Test
-  public void testaddVertexonepersononegraph() throws ExceptionofInput {
+  public void testaddVertexonepersononegraph() throws ExceptionofInput, IOException {
     NetworkTopology graph = new NetworkTopology();
     Computer abc = new Computer("abc");
     graph.addVertex(abc);
@@ -63,7 +64,7 @@ public class NetworkTest {
   // vertex = not in graph
   // graph size = n
   @Test
-  public void testaddVertexNgraph() throws ExceptionofInput {
+  public void testaddVertexNgraph() throws ExceptionofInput, IOException {
     NetworkTopology graph = new NetworkTopology();
     graph.addVertex(a);
     graph.addVertex(b);
@@ -84,7 +85,7 @@ public class NetworkTest {
 
   // target or source = not in graph
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void testaddEdgein() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgein() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     NetworkTopology graph = new NetworkTopology();
     graph.addVertex(a);
     // System.out.println(a.tellclass());
@@ -95,7 +96,7 @@ public class NetworkTest {
 
   // target or soure null, not null
   @Test(expected = AssertionError.class)
-  public void testaddEdgenull() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgenull() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     NetworkTopology graph = new NetworkTopology();
     graph.addVertex(a);
     Router d = new Router(null);
@@ -106,7 +107,7 @@ public class NetworkTest {
   // target or soure null, not null
   // edge first, new
   @Test(expected = ExceptionofUnproperEdge.class)
-  public void testaddEdgesame() throws ExceptionofInput, ExceptionofUnproperEdge {
+  public void testaddEdgesame() throws ExceptionofInput, ExceptionofUnproperEdge, IOException {
     NetworkTopology graph = new NetworkTopology();
     graph.addVertex(a);
     graph.addVertex(b);

@@ -1,5 +1,9 @@
 package graph;
 
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,8 +18,14 @@ import org.apache.log4j.Logger;
 import Exception.ExceptionofInput;
 import Exception.ExceptionofLabel;
 import Exception.ExceptionofUnproperEdge;
+import vertex.Computer;
+import vertex.Movie;
+import vertex.Person;
 import vertex.Vertex;
+import vertex.Word;
 import edge.Edge;
+import edge.FriendTie;
+import edge.MovieDirectorRelation;
 import factory.SocialNetworkFactory;
 /**
  * ConcreteGraph.
@@ -29,6 +39,9 @@ public class ConcreteGraph implements Graph<Vertex, Edge> {
   private Set<Edge> edges = new HashSet<>();
   /** log.*/
   Logger logger = Logger.getLogger(ConcreteGraph.class);
+  FileOutputStream outSTr = null;
+  /** used to write operation.*/
+  BufferedOutputStream Buff = null;
   // Abstraction function:
   // AF(vertices,Edge) = {vertices,edge|vertices != null && edges'weight >0}.
   //
@@ -50,6 +63,12 @@ public class ConcreteGraph implements Graph<Vertex, Edge> {
    * to construct.
    */
   public ConcreteGraph() {
+    try {
+      outSTr = new FileOutputStream(new File("src/source/write.txt"));
+      Buff = new BufferedOutputStream(outSTr);
+    } catch (FileNotFoundException e) {
+      System.out.println(e);
+    }
     checkRep();
   }
 
@@ -57,6 +76,7 @@ public class ConcreteGraph implements Graph<Vertex, Edge> {
   public boolean addVertex(final Vertex v)
       throws ExceptionofInput, IOException {
     boolean r;
+    /*
     boolean flag = true;
     while (flag) {
       flag = false;
@@ -78,13 +98,37 @@ public class ConcreteGraph implements Graph<Vertex, Edge> {
         System.out.println("so change label to " + newstr + "!");
         v.setlabel(newstr);
       }
-    }
+    }*/
     if (v != null) {
       r = vertices.add(v);
     } else {
       return false;
     }
-    checkRep();
+    /*
+    if (v.tellclass().equals("Actor") || v.tellclass().equals("Director")) {
+      Person n = (Person) v;
+      Buff.write(("Vertex = <\"" + n.getlabel() + "\",\"" + n.tellclass()
+      + "\", <\"" + n.getgender() + "\", \"" + n.getyear() + "\">>\n")
+          .getBytes());
+      Buff.flush();
+    } else if (v.tellclass().equals("Movie")) {
+      Movie n = (Movie) v;
+      Buff.write(("Vertex = <\"" + n.getlabel() + "\",\"" + n.tellclass()
+      + "\", <\"" + n.getyear() + "\", \"" + n.getnation() + "\", \""
+          + n.getscore() + "\">>\n").getBytes());
+      Buff.flush();
+    }else if (v.tellclass().equals("Computer") || v.tellclass().equals("Router") || v.tellclass().equals("Server")) {
+      Computer n = (Computer) v;
+      Buff.write(("Vertex = <\"" + n.getlabel() + "\",\"" + n.tellclass()
+      + "\", <\"" + n.getip()+  "\">>\n").getBytes());
+      Buff.flush();
+    }else if (v.tellclass().equals("Word")) {
+      Word n = (Word) v;
+      Buff.write(("Vertex = <\"" + n.getlabel() + "\",\"" + n.tellclass()
+      +  "\">>\n").getBytes());
+      Buff.flush();
+    }*/
+    //checkRep();
     return r;
   }
 
@@ -173,6 +217,7 @@ public class ConcreteGraph implements Graph<Vertex, Edge> {
   public boolean addEdge(final Edge edge) throws
   ExceptionofInput, ExceptionofUnproperEdge, IOException {
     boolean r;
+    /*
     boolean flag = true;
     if (edge == null) {
       return false;
@@ -210,7 +255,25 @@ public class ConcreteGraph implements Graph<Vertex, Edge> {
       }
     }
     // r = edges.add(edge);
-
+    */
+    /*
+    if (edge.tellclass().equals("MovieDirectorRelation") 
+        || edge.tellclass().equals("MovieActorRelation")) {
+      MovieDirectorRelation n = (MovieDirectorRelation) edge;
+      Buff.write(("Edge = <\"" + n.getlabel() + "\", \"" + n.tellclass()
+         + "\", <\"" + n.getweight() + "\", \"" + n.getsource().getlabel()
+          + "\", \"" + n.gettarget().getlabel() + "No" + "\">>\n").getBytes());
+      Buff.flush();
+    } else if (edge.tellclass().equals("FriendTie") || edge.tellclass().equals("ForwardTie") 
+        || edge.tellclass().equals("CommentTie") || edge.tellclass().equals("NetworkConnection") 
+        ||edge.tellclass().equals("WordNeighborhood")) {
+      FriendTie n = (FriendTie) edge;
+      Buff.write(("Edge = <\"" + n.getlabel() + "\", \"" + n.tellclass()
+      + "\", <\"" + n.getweight()  + "\", \"" + n.getsource().getlabel()
+      + "\", \"" + n.gettarget().getlabel() + "Yes" + "\">>\n").getBytes());
+      Buff.flush();
+    }
+    */
     if ((edge != null)) {
       r = edges.add(edge);
     } else {

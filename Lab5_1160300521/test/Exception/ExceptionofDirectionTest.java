@@ -1,5 +1,6 @@
 package Exception;
 
+import java.io.FileNotFoundException;
 import org.junit.Test;
 import factory.GraphPoetFactory;
 import factory.MovieGraphFactory;
@@ -22,30 +23,30 @@ public class ExceptionofDirectionTest {
   // 边的方向是否都正确 = 否
   @Test(expected = ExceptionofDirection.class)
   public void testdirection1() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     SocialNetwork g2 = new SocialNetwork();
     SocialNetworkFactory f2 = new SocialNetworkFactory();
-    f2.build("test/source/testdirection1.txt", g2);
+    f2.build1("test/source/testdirection1.txt", g2);
   }
 
   // 图类型 = SocialNetwork
   // 边的方向是否都正确 = 否
   @Test(expected = ExceptionofDirection.class)
   public void testdirection2() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     SocialNetwork g2 = new SocialNetwork();
     SocialNetworkFactory f2 = new SocialNetworkFactory();
-    f2.build("test/source/testdirection2.txt", g2);
+    f2.build1("test/source/testdirection2.txt", g2);
   }
 
   // 图类型 = GraphPoet
   // 边的方向是否都正确 = 否
   @Test(expected = ExceptionofDirection.class)
   public void testdirection3() throws ExceptionofInput, ExceptionofUnproperEdge,
-      ExceptionofDirection, ExceptionofUndirection {
+      ExceptionofDirection, ExceptionofUndirection, FileNotFoundException {
     GraphPoet g2 = new GraphPoet();
     GraphPoetFactory f2 = new GraphPoetFactory();
-    f2.build("test/source/testdirection3.txt", g2);
+    f2.build1("test/source/testdirection3.txt", g2);
   }
 
 

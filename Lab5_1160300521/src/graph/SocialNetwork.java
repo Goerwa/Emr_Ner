@@ -27,10 +27,11 @@ public class SocialNetwork extends ConcreteGraph {
   @Override
   public final boolean addVertex(final Vertex person)
       throws ExceptionofInput,  IOException {
+    /*
     if (!person.tellclass().equals("Person")) {
       loggersc.error("type of vertex is wrong");
       throw new ExceptionofInput("type of vertex is wrong");
-    }
+    }*/
     super.addVertex(person);
     return true;
   }
@@ -65,6 +66,7 @@ public class SocialNetwork extends ConcreteGraph {
   @Override
   public boolean addEdge(final Edge e) throws ExceptionofInput,
   ExceptionofUnproperEdge, IOException {
+    /*
     Person person1 = (Person) e.getsource();
     Person person2 = (Person) e.gettarget();
     // System.out.println(e.getlabel() + " add ");
@@ -197,7 +199,9 @@ public class SocialNetwork extends ConcreteGraph {
           super.addEdge(newedge);
         }
       }
-    }
+    }*/
+    boolean r;
+    r = super.addEdge(e);
     return r;
   }
 

@@ -31,7 +31,7 @@ public class NetworkConnection extends UndirectedEdge {
    */
   public NetworkConnection(final String label, final Double weight) {
     super(label, weight);
-    checkRep();
+    //checkRep();
   }
 
   /**
@@ -48,7 +48,7 @@ public class NetworkConnection extends UndirectedEdge {
   public NetworkConnection(final String label, final Vertex src,
       final Vertex arg,  final Double weight) {
     super(label, src, arg, weight);
-    checkRep();
+    //checkRep();
   }
 
   /**

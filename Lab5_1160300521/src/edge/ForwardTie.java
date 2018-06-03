@@ -30,7 +30,7 @@ public class ForwardTie extends DirectedEdge {
    */
   public ForwardTie(final String label, final double weight) {
     super(label, weight);
-    checkRep();
+    //checkRep();
   }
   /**
    * to construct.
@@ -43,7 +43,7 @@ public class ForwardTie extends DirectedEdge {
    */
   public ForwardTie(final Vertex src, final Vertex arg, final double weight) {
     super(src, arg, weight);
-    checkRep();
+    //checkRep();
   }
   /**
    * to construct.
@@ -59,7 +59,7 @@ public class ForwardTie extends DirectedEdge {
   public ForwardTie(final String label, final Vertex src,
       final Vertex arg, final double weight) {
     super(label, src, arg, weight);
-    checkRep();
+    //checkRep();
   }
 
   /**

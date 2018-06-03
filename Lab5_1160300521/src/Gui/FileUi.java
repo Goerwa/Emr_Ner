@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -13,6 +14,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import Exception.ExceptionofDirection;
 import Exception.ExceptionofInput;
+import Exception.ExceptionofUndirection;
 import Exception.ExceptionofUnproperEdge;
 import factory.GraphPoetFactory;
 import graph.Graph;
@@ -46,7 +48,7 @@ public class FileUi extends JFrame implements ActionListener {
     jp0.add(jrb1);
     jp0.add(jrb2);
     jp01.add(jrb3);
-    jp01.add(jrb4);
+    jp01.add(jrb4); 
     jb1 = new JButton("确定");
     jb2 = new JButton("清空");
     jp3.add(jb1);
@@ -87,6 +89,12 @@ public class FileUi extends JFrame implements ActionListener {
         System.out.println(e1);
       } catch (ExceptionofDirection e1) {
         System.out.println(e1);
+      } catch (ExceptionofUndirection e1) {
+        // TODO Auto-generated catch block
+        e1.printStackTrace();
+      } catch (FileNotFoundException e1) {
+        // TODO Auto-generated catch block
+        e1.printStackTrace();
       }
       JOptionPane.showMessageDialog(null, "成功！", "提示消息", JOptionPane.WARNING_MESSAGE);
       System.out.println(graph.vertices().size());
