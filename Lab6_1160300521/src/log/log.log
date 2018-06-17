@@ -1,0 +1,2154 @@
+时间：06-17 14:45
+信息：runtime: 0
+monkey 0 go to ladder 0's1 step when created 0s!
+时间：06-17 14:45
+信息：runtime: 0
+monkey 1 is waiting in R when created 0s!
+时间：06-17 14:45
+信息：runtime: 1
+monkey 0 go to ladder 0's5 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 1
+monkey 1 go to ladder 1's1 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 2
+monkey 0 go to ladder 0's9 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 2
+monkey 1 go to ladder 1's2 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 3 go to ladder 2's1 step when created 0s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 2 is waiting in R when created 0s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 0 go to ladder 0's13 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 1 go to ladder 1's3 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 3 go to ladder 2's4 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 2 go to ladder 0's1 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 1 go to ladder 1's4 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 0 go to ladder 0's17 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 3 go to ladder 2's7 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 2 go to ladder 0's2 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 1 go to ladder 1's5 step when created 5s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 3 go to ladder 2's10 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 2 go to ladder 0's3 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 0 go over ladder 0 when created 6s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 1 go to ladder 1's6 step when created 6s!
+时间：06-17 14:45
+信息：runtime: 7
+monkey 3 go to ladder 2's13 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 7
+monkey 2 go to ladder 0's4 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 7
+monkey 1 go to ladder 1's7 step when created 7s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 3 go to ladder 2's16 step when created 5s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 2 go to ladder 0's5 step when created 5s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 1 go to ladder 1's8 step when created 8s!
+时间：06-17 14:45
+信息：runtime: 9
+monkey 4 is waiting in L when created 0s!
+时间：06-17 14:45
+信息：runtime: 0
+monkey 0 go to ladder 1's1 step when created 0s!
+时间：06-17 14:45
+信息：runtime: 9
+monkey 2 go to ladder 0's6 step when created 6s!
+时间：06-17 14:45
+信息：runtime: 9
+monkey 3 go to ladder 2's19 step when created 6s!
+时间：06-17 14:45
+信息：runtime: 9
+monkey 1 go to ladder 1's9 step when created 9s!
+时间：06-17 14:45
+信息：runtime: 10
+monkey 4 is waiting in L when created 1s!
+时间：06-17 14:45
+信息：runtime: 1
+monkey 0 go to ladder 1's3 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 10
+monkey 2 go to ladder 0's7 step when created 7s!
+时间：06-17 14:45
+信息：runtime: 10
+monkey 1 go to ladder 1's10 step when created 10s!
+时间：06-17 14:45
+信息：runtime: 11
+monkey 4 go to ladder 2's1 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 2
+monkey 1 go to ladder 0's1 step when created 0s!
+时间：06-17 14:45
+信息：runtime: 2
+monkey 0 go to ladder 1's5 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 11
+monkey 2 go to ladder 0's8 step when created 8s!
+时间：06-17 14:45
+信息：runtime: 11
+monkey 3 go over ladder 2 when created 8s!
+时间：06-17 14:45
+信息：runtime: 11
+monkey 1 go to ladder 1's11 step when created 11s!
+时间：06-17 14:45
+信息：runtime: 12
+monkey 4 go to ladder 2's2 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 1 go to ladder 0's3 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 0 go to ladder 1's7 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 12
+monkey 2 go to ladder 0's9 step when created 9s!
+时间：06-17 14:45
+信息：runtime: 12
+monkey 1 go to ladder 1's12 step when created 12s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 2 go to ladder 0's1 step when created 0s!
+时间：06-17 14:45
+信息：runtime: 13
+monkey 4 go to ladder 2's3 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 1 go to ladder 0's5 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 0 go to ladder 1's9 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 13
+monkey 2 go to ladder 0's10 step when created 10s!
+时间：06-17 14:45
+信息：runtime: 13
+monkey 1 go to ladder 1's13 step when created 13s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 2 go to ladder 0's4 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 14
+monkey 4 go to ladder 2's4 step when created 5s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 1 go to ladder 0's7 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 14
+monkey 2 go to ladder 0's11 step when created 11s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 0 go to ladder 1's11 step when created 5s!
+时间：06-17 14:45
+信息：runtime: 14
+monkey 1 go to ladder 1's14 step when created 14s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 3 is waiting in R when created 0s!
+时间：06-17 14:45
+信息：runtime: 15
+monkey 4 go to ladder 2's5 step when created 6s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 1 go to ladder 0's9 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 2 go to ladder 0's6 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 15
+monkey 2 go to ladder 0's12 step when created 12s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 0 go to ladder 1's13 step when created 6s!
+时间：06-17 14:45
+信息：runtime: 15
+monkey 1 go to ladder 1's15 step when created 15s!
+时间：06-17 14:45
+信息：runtime: 7
+monkey 3 is waiting in R when created 1s!
+时间：06-17 14:45
+信息：runtime: 7
+monkey 1 go to ladder 0's11 step when created 5s!
+时间：06-17 14:45
+信息：runtime: 7
+monkey 2 go to ladder 0's9 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 16
+monkey 4 go to ladder 2's6 step when created 7s!
+时间：06-17 14:45
+信息：runtime: 16
+monkey 2 go to ladder 0's13 step when created 13s!
+时间：06-17 14:45
+信息：runtime: 7
+monkey 0 go to ladder 1's15 step when created 7s!
+时间：06-17 14:45
+信息：runtime: 16
+monkey 1 go to ladder 1's16 step when created 16s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 4 is waiting in R when created 0s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 3 is waiting in R when created 2s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 1 go to ladder 0's13 step when created 6s!
+时间：06-17 14:45
+信息：runtime: 17
+monkey 4 go to ladder 2's7 step when created 8s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 2 go to ladder 0's12 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 17
+monkey 2 go to ladder 0's14 step when created 14s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 0 go to ladder 1's17 step when created 8s!
+时间：06-17 14:45
+信息：runtime: 0
+monkey 1 is waiting in R when created 0s!
+时间：06-17 14:45
+信息：runtime: 0
+monkey 0 go to ladder 0's1 step when created 0s!
+时间：06-17 14:45
+信息：runtime: 1
+monkey 0 go to ladder 0's6 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 1
+monkey 1 go to ladder 1's1 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 2
+monkey 0 go to ladder 0's11 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 2
+monkey 1 go to ladder 1's4 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 2 go to ladder 2's1 step when created 0s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 3 go to ladder 1's1 step when created 0s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 1 go to ladder 1's7 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 3
+monkey 0 go to ladder 0's16 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 2 go to ladder 2's6 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 3 go to ladder 1's6 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 4
+monkey 1 go to ladder 1's10 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 2 go to ladder 2's11 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 3 go to ladder 1's9 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 0 go over ladder 0 when created 5s!
+时间：06-17 14:45
+信息：runtime: 5
+monkey 1 go to ladder 1's13 step when created 5s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 2 go to ladder 2's16 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 3 go to ladder 1's12 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 6
+monkey 1 go to ladder 1's16 step when created 6s!
+时间：06-17 14:45
+信息：runtime: 7
+monkey 3 go to ladder 1's15 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 7
+monkey 1 go to ladder 1's19 step when created 7s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 2 go over ladder 2 when created 5s!
+时间：06-17 14:45
+信息：runtime: 8
+monkey 3 go to ladder 1's18 step when created 5s!
+时间：06-17 14:45
+信息：runtime: 9
+monkey 4 go to ladder 0's1 step when created 0s!
+时间：06-17 14:45
+信息：runtime: 9
+monkey 1 go over ladder 1 when created 9s!
+时间：06-17 14:45
+信息：runtime: 10
+monkey 4 go to ladder 0's2 step when created 1s!
+时间：06-17 14:45
+信息：runtime: 10
+monkey 3 go over ladder 1 when created 7s!
+时间：06-17 14:45
+信息：runtime: 11
+monkey 4 go to ladder 0's3 step when created 2s!
+时间：06-17 14:45
+信息：runtime: 12
+monkey 4 go to ladder 0's4 step when created 3s!
+时间：06-17 14:45
+信息：runtime: 13
+monkey 4 go to ladder 0's5 step when created 4s!
+时间：06-17 14:45
+信息：runtime: 14
+monkey 4 go to ladder 0's6 step when created 5s!
+时间：06-17 14:45
+信息：runtime: 15
+monkey 4 go to ladder 0's7 step when created 6s!
+时间：06-17 14:45
+信息：runtime: 16
+monkey 4 go to ladder 0's8 step when created 7s!
+时间：06-17 14:45
+信息：runtime: 17
+monkey 4 go to ladder 0's9 step when created 8s!
+时间：06-17 14:45
+信息：runtime: 18
+monkey 4 go to ladder 0's10 step when created 9s!
+时间：06-17 14:45
+信息：runtime: 19
+monkey 4 go to ladder 0's11 step when created 10s!
+时间：06-17 14:45
+信息：runtime: 20
+monkey 4 go to ladder 0's12 step when created 11s!
+时间：06-17 14:45
+信息：runtime: 21
+monkey 4 go to ladder 0's13 step when created 12s!
+时间：06-17 14:46
+信息：runtime: 22
+monkey 4 go to ladder 0's14 step when created 13s!
+时间：06-17 14:46
+信息：runtime: 23
+monkey 4 go to ladder 0's15 step when created 14s!
+时间：06-17 14:46
+信息：runtime: 24
+monkey 4 go to ladder 0's16 step when created 15s!
+时间：06-17 14:46
+信息：runtime: 25
+monkey 4 go to ladder 0's17 step when created 16s!
+时间：06-17 14:46
+信息：runtime: 26
+monkey 4 go to ladder 0's18 step when created 17s!
+时间：06-17 14:46
+信息：runtime: 27
+monkey 4 go to ladder 0's19 step when created 18s!
+时间：06-17 14:46
+信息：runtime: 28
+monkey 4 go to ladder 0's20 step when created 19s!
+时间：06-17 14:46
+信息：runtime: 30
+monkey 4 go over ladder 0 when created 21s!
+时间：06-17 14:46
+信息：runtime: 0
+monkey 0 go to ladder 0's1 step when created 0s!
+时间：06-17 14:46
+信息：runtime: 0
+monkey 1 is waiting in L when created 0s!
+时间：06-17 14:46
+信息：runtime: 1
+monkey 0 go to ladder 0's3 step when created 1s!
+时间：06-17 14:46
+信息：runtime: 1
+monkey 1 go to ladder 1's1 step when created 1s!
+时间：06-17 14:46
+信息：runtime: 2
+monkey 0 go to ladder 0's5 step when created 2s!
+时间：06-17 14:46
+信息：runtime: 2
+monkey 1 go to ladder 1's3 step when created 2s!
+时间：06-17 14:46
+信息：runtime: 3
+monkey 2 go to ladder 2's1 step when created 0s!
+时间：06-17 14:46
+信息：runtime: 3
+monkey 3 go to ladder 0's1 step when created 0s!
+时间：06-17 14:46
+信息：runtime: 3
+monkey 0 go to ladder 0's7 step when created 3s!
+时间：06-17 14:46
+信息：runtime: 3
+monkey 1 go to ladder 1's5 step when created 3s!
+时间：06-17 14:46
+信息：runtime: 4
+monkey 2 go to ladder 2's4 step when created 1s!
+时间：06-17 14:46
+信息：runtime: 4
+monkey 3 go to ladder 0's3 step when created 1s!
+时间：06-17 14:46
+信息：runtime: 4
+monkey 1 go to ladder 1's7 step when created 4s!
+时间：06-17 14:46
+信息：runtime: 4
+monkey 0 go to ladder 0's9 step when created 4s!
+时间：06-17 14:46
+信息：runtime: 5
+monkey 2 go to ladder 2's7 step when created 2s!
+时间：06-17 14:46
+信息：runtime: 5
+monkey 3 go to ladder 0's5 step when created 2s!
+时间：06-17 14:46
+信息：runtime: 5
+monkey 0 go to ladder 0's11 step when created 5s!
+时间：06-17 14:46
+信息：runtime: 5
+monkey 1 go to ladder 1's9 step when created 5s!
+时间：06-17 14:46
+信息：runtime: 6
+monkey 3 go to ladder 0's7 step when created 3s!
+时间：06-17 14:46
+信息：runtime: 6
+monkey 2 go to ladder 2's10 step when created 3s!
+时间：06-17 14:46
+信息：runtime: 6
+monkey 0 go to ladder 0's13 step when created 6s!
+时间：06-17 14:46
+信息：runtime: 6
+monkey 1 go to ladder 1's11 step when created 6s!
+时间：06-17 14:46
+信息：runtime: 7
+monkey 3 go to ladder 0's9 step when created 4s!
+时间：06-17 14:46
+信息：runtime: 7
+monkey 2 go to ladder 2's13 step when created 4s!
+时间：06-17 14:46
+信息：runtime: 7
+monkey 1 go to ladder 1's13 step when created 7s!
+时间：06-17 14:46
+信息：runtime: 7
+monkey 0 go to ladder 0's15 step when created 7s!
+时间：06-17 14:46
+信息：runtime: 8
+monkey 3 go to ladder 0's11 step when created 5s!
+时间：06-17 14:46
+信息：runtime: 8
+monkey 2 go to ladder 2's16 step when created 5s!
+时间：06-17 14:46
+信息：runtime: 8
+monkey 0 go to ladder 0's17 step when created 8s!
+时间：06-17 14:46
+信息：runtime: 8
+monkey 1 go to ladder 1's15 step when created 8s!
+时间：06-17 14:46
+信息：runtime: 9
+monkey 4 is waiting in L when created 0s!
+时间：06-17 14:46
+信息：runtime: 9
+monkey 2 go to ladder 2's19 step when created 6s!
+时间：06-17 14:46
+信息：runtime: 9
+monkey 3 go to ladder 0's13 step when created 6s!
+时间：06-17 14:46
+信息：runtime: 9
+monkey 1 go to ladder 1's17 step when created 9s!
+时间：06-17 14:46
+信息：runtime: 9
+monkey 0 go to ladder 0's19 step when created 9s!
+时间：06-17 14:46
+信息：runtime: 10
+monkey 4 is waiting in L when created 1s!
+时间：06-17 14:46
+信息：runtime: 10
+monkey 3 go to ladder 0's15 step when created 7s!
+时间：06-17 14:46
+信息：runtime: 10
+monkey 1 go to ladder 1's19 step when created 10s!
+时间：06-17 14:46
+信息：runtime: 11
+monkey 4 go to ladder 2's1 step when created 2s!
+时间：06-17 14:46
+信息：runtime: 11
+monkey 2 go over ladder 2 when created 8s!
+时间：06-17 14:46
+信息：runtime: 11
+monkey 3 go to ladder 0's17 step when created 8s!
+时间：06-17 14:46
+信息：runtime: 11
+monkey 0 go over ladder 0 when created 11s!
+时间：06-17 14:46
+信息：runtime: 12
+monkey 4 go to ladder 2's2 step when created 3s!
+时间：06-17 14:46
+信息：runtime: 12
+monkey 3 go to ladder 0's19 step when created 9s!
+时间：06-17 14:46
+信息：runtime: 12
+monkey 1 go over ladder 1 when created 12s!
+时间：06-17 14:46
+信息：runtime: 13
+monkey 4 go to ladder 2's3 step when created 4s!
+时间：06-17 14:46
+信息：runtime: 14
+monkey 4 go to ladder 2's4 step when created 5s!
+时间：06-17 14:46
+信息：runtime: 14
+monkey 3 go over ladder 0 when created 11s!
+时间：06-17 14:46
+信息：runtime: 15
+monkey 4 go to ladder 2's5 step when created 6s!
+时间：06-17 14:46
+信息：runtime: 16
+monkey 4 go to ladder 2's6 step when created 7s!
+时间：06-17 14:46
+信息：runtime: 17
+monkey 4 go to ladder 2's7 step when created 8s!
+时间：06-17 14:46
+信息：runtime: 18
+monkey 4 go to ladder 2's8 step when created 9s!
+时间：06-17 14:46
+信息：runtime: 19
+monkey 4 go to ladder 2's9 step when created 10s!
+时间：06-17 14:46
+信息：runtime: 20
+monkey 4 go to ladder 2's10 step when created 11s!
+时间：06-17 14:46
+信息：runtime: 21
+monkey 4 go to ladder 2's11 step when created 12s!
+时间：06-17 14:46
+信息：runtime: 22
+monkey 4 go to ladder 2's12 step when created 13s!
+时间：06-17 14:46
+信息：runtime: 23
+monkey 4 go to ladder 2's13 step when created 14s!
+时间：06-17 14:46
+信息：runtime: 24
+monkey 4 go to ladder 2's14 step when created 15s!
+时间：06-17 14:46
+信息：runtime: 25
+monkey 4 go to ladder 2's15 step when created 16s!
+时间：06-17 14:46
+信息：runtime: 26
+monkey 4 go to ladder 2's16 step when created 17s!
+时间：06-17 14:46
+信息：runtime: 27
+monkey 4 go to ladder 2's17 step when created 18s!
+时间：06-17 14:46
+信息：runtime: 28
+monkey 4 go to ladder 2's18 step when created 19s!
+时间：06-17 14:47
+信息：runtime: 29
+monkey 4 go to ladder 2's19 step when created 20s!
+时间：06-17 14:47
+信息：runtime: 30
+monkey 4 go to ladder 2's20 step when created 21s!
+时间：06-17 14:47
+信息：runtime: 32
+monkey 4 go over ladder 2 when created 23s!
+时间：06-17 14:47
+信息：runtime: 0
+monkey 1 go to ladder 2's1 step when created 0s!
+时间：06-17 14:47
+信息：runtime: 0
+monkey 0 go to ladder 0's1 step when created 0s!
+时间：06-17 14:47
+信息：runtime: 1
+monkey 1 go to ladder 2's2 step when created 1s!
+时间：06-17 14:47
+信息：runtime: 1
+monkey 0 go to ladder 0's5 step when created 1s!
+时间：06-17 14:47
+信息：runtime: 2
+monkey 1 go to ladder 2's3 step when created 2s!
+时间：06-17 14:47
+信息：runtime: 2
+monkey 0 go to ladder 0's9 step when created 2s!
+时间：06-17 14:47
+信息：runtime: 3
+monkey 2 go to ladder 1's1 step when created 0s!
+时间：06-17 14:47
+信息：runtime: 3
+monkey 3 go to ladder 2's1 step when created 0s!
+时间：06-17 14:47
+信息：runtime: 3
+monkey 1 go to ladder 2's4 step when created 3s!
+时间：06-17 14:47
+信息：runtime: 3
+monkey 0 go to ladder 0's13 step when created 3s!
+时间：06-17 14:47
+信息：runtime: 4
+monkey 2 go to ladder 1's5 step when created 1s!
+时间：06-17 14:47
+信息：runtime: 4
+monkey 3 go to ladder 2's3 step when created 1s!
+时间：06-17 14:47
+信息：runtime: 4
+monkey 1 go to ladder 2's5 step when created 4s!
+时间：06-17 14:47
+信息：runtime: 4
+monkey 0 go to ladder 0's17 step when created 4s!
+时间：06-17 14:47
+信息：runtime: 5
+monkey 2 go to ladder 1's9 step when created 2s!
+时间：06-17 14:47
+信息：runtime: 5
+monkey 3 go to ladder 2's4 step when created 2s!
+时间：06-17 14:47
+信息：runtime: 5
+monkey 1 go to ladder 2's6 step when created 5s!
+时间：06-17 14:47
+信息：runtime: 6
+monkey 2 go to ladder 1's13 step when created 3s!
+时间：06-17 14:47
+信息：runtime: 6
+monkey 3 go to ladder 2's5 step when created 3s!
+时间：06-17 14:47
+信息：runtime: 6
+monkey 0 go over ladder 0 when created 6s!
+时间：06-17 14:47
+信息：runtime: 6
+monkey 1 go to ladder 2's7 step when created 6s!
+时间：06-17 14:47
+信息：runtime: 7
+monkey 2 go to ladder 1's17 step when created 4s!
+时间：06-17 14:47
+信息：runtime: 7
+monkey 3 go to ladder 2's6 step when created 4s!
+时间：06-17 14:47
+信息：runtime: 7
+monkey 1 go to ladder 2's8 step when created 7s!
+时间：06-17 14:47
+信息：runtime: 8
+monkey 3 go to ladder 2's7 step when created 5s!
+时间：06-17 14:47
+信息：runtime: 8
+monkey 1 go to ladder 2's9 step when created 8s!
+时间：06-17 14:47
+信息：runtime: 9
+monkey 4 go to ladder 0's1 step when created 0s!
+时间：06-17 14:47
+信息：runtime: 9
+monkey 2 go over ladder 1 when created 6s!
+时间：06-17 14:47
+信息：runtime: 9
+monkey 3 go to ladder 2's8 step when created 6s!
+时间：06-17 14:47
+信息：runtime: 9
+monkey 1 go to ladder 2's10 step when created 9s!
+时间：06-17 14:47
+信息：runtime: 10
+monkey 4 go to ladder 0's6 step when created 1s!
+时间：06-17 14:47
+信息：runtime: 10
+monkey 3 go to ladder 2's9 step when created 7s!
+时间：06-17 14:47
+信息：runtime: 10
+monkey 1 go to ladder 2's11 step when created 10s!
+时间：06-17 14:47
+信息：runtime: 11
+monkey 4 go to ladder 0's11 step when created 2s!
+时间：06-17 14:47
+信息：runtime: 11
+monkey 3 go to ladder 2's10 step when created 8s!
+时间：06-17 14:47
+信息：runtime: 11
+monkey 1 go to ladder 2's12 step when created 11s!
+时间：06-17 14:47
+信息：runtime: 12
+monkey 4 go to ladder 0's16 step when created 3s!
+时间：06-17 14:47
+信息：runtime: 12
+monkey 3 go to ladder 2's11 step when created 9s!
+时间：06-17 14:47
+信息：runtime: 12
+monkey 1 go to ladder 2's13 step when created 12s!
+时间：06-17 14:47
+信息：runtime: 13
+monkey 3 go to ladder 2's12 step when created 10s!
+时间：06-17 14:47
+信息：runtime: 13
+monkey 1 go to ladder 2's14 step when created 13s!
+时间：06-17 14:47
+信息：runtime: 14
+monkey 4 go over ladder 0 when created 5s!
+时间：06-17 14:47
+信息：runtime: 14
+monkey 3 go to ladder 2's13 step when created 11s!
+时间：06-17 14:47
+信息：runtime: 14
+monkey 1 go to ladder 2's15 step when created 14s!
+时间：06-17 14:47
+信息：runtime: 15
+monkey 3 go to ladder 2's14 step when created 12s!
+时间：06-17 14:47
+信息：runtime: 15
+monkey 1 go to ladder 2's16 step when created 15s!
+时间：06-17 14:47
+信息：runtime: 16
+monkey 3 go to ladder 2's15 step when created 13s!
+时间：06-17 14:47
+信息：runtime: 16
+monkey 1 go to ladder 2's17 step when created 16s!
+时间：06-17 14:47
+信息：runtime: 17
+monkey 3 go to ladder 2's16 step when created 14s!
+时间：06-17 14:47
+信息：runtime: 17
+monkey 1 go to ladder 2's18 step when created 17s!
+时间：06-17 14:47
+信息：runtime: 18
+monkey 3 go to ladder 2's17 step when created 15s!
+时间：06-17 14:47
+信息：runtime: 18
+monkey 1 go to ladder 2's19 step when created 18s!
+时间：06-17 14:47
+信息：runtime: 19
+monkey 3 go to ladder 2's18 step when created 16s!
+时间：06-17 14:47
+信息：runtime: 19
+monkey 1 go to ladder 2's20 step when created 19s!
+时间：06-17 14:47
+信息：runtime: 20
+monkey 3 go to ladder 2's19 step when created 17s!
+时间：06-17 14:47
+信息：runtime: 21
+monkey 1 go over ladder 2 when created 21s!
+时间：06-17 14:47
+信息：runtime: 22
+monkey 3 go over ladder 2 when created 19s!
+时间：06-17 14:50
+信息：runtime: 0
+monkey 1 is waiting in R when created 0s!
+时间：06-17 14:50
+信息：runtime: 0
+monkey 0 go to ladder 2's1 step when created 0s!
+时间：06-17 14:50
+信息：runtime: 1
+monkey 0 go to ladder 2's6 step when created 1s!
+时间：06-17 14:50
+信息：runtime: 1
+monkey 1 go to ladder 1's1 step when created 1s!
+时间：06-17 14:50
+信息：runtime: 2
+monkey 0 go to ladder 2's11 step when created 2s!
+时间：06-17 14:50
+信息：runtime: 2
+monkey 1 go to ladder 1's5 step when created 2s!
+时间：06-17 14:50
+信息：runtime: 3
+monkey 2 go to ladder 0's1 step when created 0s!
+时间：06-17 14:50
+信息：runtime: 3
+monkey 3 go to ladder 2's1 step when created 0s!
+时间：06-17 14:50
+信息：runtime: 3
+monkey 0 go to ladder 2's16 step when created 3s!
+时间：06-17 14:50
+信息：runtime: 3
+monkey 1 go to ladder 1's9 step when created 3s!
+时间：06-17 14:50
+信息：runtime: 4
+monkey 2 go to ladder 0's3 step when created 1s!
+时间：06-17 14:50
+信息：runtime: 4
+monkey 3 go to ladder 2's3 step when created 1s!
+时间：06-17 14:50
+信息：runtime: 4
+monkey 1 go to ladder 1's13 step when created 4s!
+时间：06-17 14:50
+信息：runtime: 5
+monkey 2 go to ladder 0's5 step when created 2s!
+时间：06-17 14:50
+信息：runtime: 5
+monkey 3 go to ladder 2's5 step when created 2s!
+时间：06-17 14:50
+信息：runtime: 5
+monkey 0 go over ladder 2 when created 5s!
+时间：06-17 14:50
+信息：runtime: 5
+monkey 1 go to ladder 1's17 step when created 5s!
+时间：06-17 14:50
+信息：runtime: 6
+monkey 3 go to ladder 2's7 step when created 3s!
+时间：06-17 14:50
+信息：runtime: 6
+monkey 2 go to ladder 0's7 step when created 3s!
+时间：06-17 14:50
+信息：runtime: 7
+monkey 3 go to ladder 2's9 step when created 4s!
+时间：06-17 14:50
+信息：runtime: 7
+monkey 2 go to ladder 0's9 step when created 4s!
+时间：06-17 14:50
+信息：runtime: 7
+monkey 1 go over ladder 1 when created 7s!
+时间：06-17 14:50
+信息：runtime: 8
+monkey 3 go to ladder 2's11 step when created 5s!
+时间：06-17 14:50
+信息：runtime: 8
+monkey 2 go to ladder 0's11 step when created 5s!
+时间：06-17 14:50
+信息：runtime: 9
+monkey 4 go to ladder 1's1 step when created 0s!
+时间：06-17 14:50
+信息：runtime: 9
+monkey 2 go to ladder 0's13 step when created 6s!
+时间：06-17 14:50
+信息：runtime: 9
+monkey 3 go to ladder 2's13 step when created 6s!
+时间：06-17 14:50
+信息：runtime: 10
+monkey 4 go to ladder 1's3 step when created 1s!
+时间：06-17 14:50
+信息：runtime: 10
+monkey 3 go to ladder 2's15 step when created 7s!
+时间：06-17 14:50
+信息：runtime: 10
+monkey 2 go to ladder 0's15 step when created 7s!
+时间：06-17 14:50
+信息：runtime: 11
+monkey 4 go to ladder 1's5 step when created 2s!
+时间：06-17 14:50
+信息：runtime: 11
+monkey 2 go to ladder 0's17 step when created 8s!
+时间：06-17 14:50
+信息：runtime: 11
+monkey 3 go to ladder 2's17 step when created 8s!
+时间：06-17 14:50
+信息：runtime: 12
+monkey 3 go to ladder 2's19 step when created 9s!
+时间：06-17 14:50
+信息：runtime: 12
+monkey 4 go to ladder 1's7 step when created 3s!
+时间：06-17 14:50
+信息：runtime: 12
+monkey 2 go to ladder 0's19 step when created 9s!
+时间：06-17 14:50
+信息：runtime: 13
+monkey 4 go to ladder 1's9 step when created 4s!
+时间：06-17 14:50
+信息：runtime: 14
+monkey 3 go over ladder 2 when created 11s!
+时间：06-17 14:50
+信息：runtime: 14
+monkey 2 go over ladder 0 when created 11s!
+时间：06-17 14:50
+信息：runtime: 14
+monkey 4 go to ladder 1's11 step when created 5s!
+时间：06-17 14:50
+信息：runtime: 15
+monkey 4 go to ladder 1's13 step when created 6s!
+时间：06-17 14:50
+信息：runtime: 16
+monkey 4 go to ladder 1's15 step when created 7s!
+时间：06-17 14:50
+信息：runtime: 17
+monkey 4 go to ladder 1's17 step when created 8s!
+时间：06-17 14:50
+信息：runtime: 18
+monkey 4 go to ladder 1's19 step when created 9s!
+时间：06-17 14:50
+信息：runtime: 20
+monkey 4 go over ladder 1 when created 11s!
+时间：06-17 15:01
+信息：runtime: 0
+monkey 1 go to ladder 0's1 step when created 0s!
+时间：06-17 15:01
+信息：runtime: 0
+monkey 0 go to ladder 2's1 step when created 0s!
+时间：06-17 15:01
+信息：runtime: 1
+monkey 1 go to ladder 0's4 step when created 1s!
+时间：06-17 15:01
+信息：runtime: 1
+monkey 0 go to ladder 2's2 step when created 1s!
+时间：06-17 15:01
+信息：runtime: 2
+monkey 1 go to ladder 0's7 step when created 2s!
+时间：06-17 15:01
+信息：runtime: 2
+monkey 0 go to ladder 2's3 step when created 2s!
+时间：06-17 15:01
+信息：runtime: 3
+monkey 2 go to ladder 1's1 step when created 0s!
+时间：06-17 15:01
+信息：runtime: 3
+monkey 3 is waiting in L when created 0s!
+时间：06-17 15:01
+信息：runtime: 3
+monkey 1 go to ladder 0's10 step when created 3s!
+时间：06-17 15:01
+信息：runtime: 3
+monkey 0 go to ladder 2's4 step when created 3s!
+时间：06-17 15:01
+信息：runtime: 4
+monkey 2 go to ladder 1's6 step when created 1s!
+时间：06-17 15:01
+信息：runtime: 4
+monkey 3 go to ladder 1's1 step when created 1s!
+时间：06-17 15:01
+信息：runtime: 4
+monkey 1 go to ladder 0's13 step when created 4s!
+时间：06-17 15:01
+信息：runtime: 4
+monkey 0 go to ladder 2's5 step when created 4s!
+时间：06-17 15:01
+信息：runtime: 5
+monkey 2 go to ladder 1's11 step when created 2s!
+时间：06-17 15:01
+信息：runtime: 5
+monkey 3 go to ladder 1's2 step when created 2s!
+时间：06-17 15:01
+信息：runtime: 5
+monkey 0 go to ladder 2's6 step when created 5s!
+时间：06-17 15:01
+信息：runtime: 5
+monkey 1 go to ladder 0's16 step when created 5s!
+时间：06-17 15:01
+信息：runtime: 6
+monkey 3 go to ladder 1's3 step when created 3s!
+时间：06-17 15:01
+信息：runtime: 6
+monkey 2 go to ladder 1's16 step when created 3s!
+时间：06-17 15:01
+信息：runtime: 6
+monkey 0 go to ladder 2's7 step when created 6s!
+时间：06-17 15:01
+信息：runtime: 6
+monkey 1 go to ladder 0's19 step when created 6s!
+时间：06-17 15:01
+信息：runtime: 7
+monkey 3 go to ladder 1's4 step when created 4s!
+时间：06-17 15:01
+信息：runtime: 7
+monkey 0 go to ladder 2's8 step when created 7s!
+时间：06-17 15:01
+信息：runtime: 8
+monkey 3 go to ladder 1's5 step when created 5s!
+时间：06-17 15:01
+信息：runtime: 8
+monkey 0 go to ladder 2's9 step when created 8s!
+时间：06-17 15:01
+信息：runtime: 9
+monkey 4 go to ladder 0's1 step when created 0s!
+时间：06-17 15:01
+信息：runtime: 9
+monkey 3 go to ladder 1's6 step when created 6s!
+时间：06-17 15:01
+信息：runtime: 9
+monkey 0 go to ladder 2's10 step when created 9s!
+时间：06-17 15:01
+信息：runtime: 10
+monkey 4 go to ladder 0's2 step when created 1s!
+时间：06-17 15:01
+信息：runtime: 10
+monkey 3 go to ladder 1's7 step when created 7s!
+时间：06-17 15:01
+信息：runtime: 10
+monkey 0 go to ladder 2's11 step when created 10s!
+时间：06-17 15:01
+信息：runtime: 11
+monkey 4 go to ladder 0's3 step when created 2s!
+时间：06-17 15:01
+信息：runtime: 11
+monkey 3 go to ladder 1's8 step when created 8s!
+时间：06-17 15:01
+信息：runtime: 11
+monkey 0 go to ladder 2's12 step when created 11s!
+时间：06-17 15:01
+信息：runtime: 12
+monkey 4 go to ladder 0's4 step when created 3s!
+时间：06-17 15:01
+信息：runtime: 12
+monkey 3 go to ladder 1's9 step when created 9s!
+时间：06-17 15:01
+信息：runtime: 12
+monkey 0 go to ladder 2's13 step when created 12s!
+时间：06-17 15:01
+信息：runtime: 13
+monkey 4 go to ladder 0's5 step when created 4s!
+时间：06-17 15:01
+信息：runtime: 13
+monkey 3 go to ladder 1's10 step when created 10s!
+时间：06-17 15:01
+信息：runtime: 13
+monkey 0 go to ladder 2's14 step when created 13s!
+时间：06-17 15:01
+信息：runtime: 14
+monkey 4 go to ladder 0's6 step when created 5s!
+时间：06-17 15:01
+信息：runtime: 14
+monkey 3 go to ladder 1's11 step when created 11s!
+时间：06-17 15:01
+信息：runtime: 14
+monkey 0 go to ladder 2's15 step when created 14s!
+时间：06-17 15:01
+信息：runtime: 15
+monkey 4 go to ladder 0's7 step when created 6s!
+时间：06-17 15:01
+信息：runtime: 15
+monkey 3 go to ladder 1's12 step when created 12s!
+时间：06-17 15:01
+信息：runtime: 15
+monkey 0 go to ladder 2's16 step when created 15s!
+时间：06-17 15:01
+信息：runtime: 16
+monkey 4 go to ladder 0's8 step when created 7s!
+时间：06-17 15:01
+信息：runtime: 16
+monkey 3 go to ladder 1's13 step when created 13s!
+时间：06-17 15:01
+信息：runtime: 16
+monkey 0 go to ladder 2's17 step when created 16s!
+时间：06-17 15:01
+信息：runtime: 17
+monkey 4 go to ladder 0's9 step when created 8s!
+时间：06-17 15:01
+信息：runtime: 17
+monkey 3 go to ladder 1's14 step when created 14s!
+时间：06-17 15:01
+信息：runtime: 17
+monkey 0 go to ladder 2's18 step when created 17s!
+时间：06-17 15:01
+信息：runtime: 18
+monkey 4 go to ladder 0's10 step when created 9s!
+时间：06-17 15:01
+信息：runtime: 18
+monkey 3 go to ladder 1's15 step when created 15s!
+时间：06-17 15:01
+信息：runtime: 18
+monkey 0 go to ladder 2's19 step when created 18s!
+时间：06-17 15:01
+信息：runtime: 19
+monkey 4 go to ladder 0's11 step when created 10s!
+时间：06-17 15:01
+信息：runtime: 19
+monkey 3 go to ladder 1's16 step when created 16s!
+时间：06-17 15:01
+信息：runtime: 19
+monkey 0 go to ladder 2's20 step when created 19s!
+时间：06-17 15:01
+信息：runtime: 20
+monkey 4 go to ladder 0's12 step when created 11s!
+时间：06-17 15:01
+信息：runtime: 20
+monkey 3 go to ladder 1's17 step when created 17s!
+时间：06-17 15:01
+信息：runtime: 21
+monkey 4 go to ladder 0's13 step when created 12s!
+时间：06-17 15:01
+信息：runtime: 21
+monkey 3 go to ladder 1's18 step when created 18s!
+时间：06-17 15:01
+信息：runtime: 21
+monkey 0 go over ladder 2 when created 21s!
+时间：06-17 15:01
+信息：runtime: 22
+monkey 4 go to ladder 0's14 step when created 13s!
+时间：06-17 15:01
+信息：runtime: 22
+monkey 3 go to ladder 1's19 step when created 19s!
+时间：06-17 15:01
+信息：runtime: 23
+monkey 4 go to ladder 0's15 step when created 14s!
+时间：06-17 15:01
+信息：runtime: 23
+monkey 3 go to ladder 1's20 step when created 20s!
+时间：06-17 15:01
+信息：runtime: 24
+monkey 4 go to ladder 0's16 step when created 15s!
+时间：06-17 15:01
+信息：runtime: 25
+monkey 4 go to ladder 0's17 step when created 16s!
+时间：06-17 15:01
+信息：runtime: 26
+monkey 4 go to ladder 0's18 step when created 17s!
+时间：06-17 15:01
+信息：runtime: 27
+monkey 4 go to ladder 0's19 step when created 18s!
+时间：06-17 15:01
+信息：runtime: 28
+monkey 4 go to ladder 0's20 step when created 19s!
+时间：06-17 15:06
+信息：runtime: 0
+monkey 0 go to ladder 0's1 step when created 0s!
+时间：06-17 15:06
+信息：runtime: 0
+monkey 1 is waiting in L when created 0s!
+时间：06-17 15:06
+信息：runtime: 1
+monkey 0 go to ladder 0's6 step when created 1s!
+时间：06-17 15:06
+信息：runtime: 1
+monkey 1 go to ladder 1's1 step when created 1s!
+时间：06-17 15:06
+信息：runtime: 2
+monkey 0 go to ladder 0's11 step when created 2s!
+时间：06-17 15:06
+信息：runtime: 2
+monkey 1 go to ladder 1's5 step when created 2s!
+时间：06-17 15:06
+信息：runtime: 3
+monkey 2 go to ladder 2's1 step when created 0s!
+时间：06-17 15:06
+信息：runtime: 3
+monkey 3 is waiting in R when created 0s!
+时间：06-17 15:06
+信息：runtime: 3
+monkey 0 go to ladder 0's16 step when created 3s!
+时间：06-17 15:06
+信息：runtime: 3
+monkey 1 go to ladder 1's9 step when created 3s!
+时间：06-17 15:06
+信息：runtime: 4
+monkey 2 go to ladder 2's3 step when created 1s!
+时间：06-17 15:06
+信息：runtime: 4
+monkey 3 is waiting in R when created 1s!
+时间：06-17 15:06
+信息：runtime: 4
+monkey 1 go to ladder 1's13 step when created 4s!
+时间：06-17 15:06
+信息：runtime: 5
+monkey 2 go to ladder 2's5 step when created 2s!
+时间：06-17 15:06
+信息：runtime: 5
+monkey 3 go to ladder 0's1 step when created 2s!
+时间：06-17 15:06
+信息：runtime: 5
+monkey 1 go to ladder 1's17 step when created 5s!
+时间：06-17 15:06
+信息：runtime: 5
+monkey 0 go over ladder 0 when created 5s!
+时间：06-17 15:06
+信息：runtime: 6
+monkey 3 go to ladder 0's5 step when created 3s!
+时间：06-17 15:06
+信息：runtime: 6
+monkey 2 go to ladder 2's7 step when created 3s!
+时间：06-17 15:06
+信息：runtime: 7
+monkey 2 go to ladder 2's9 step when created 4s!
+时间：06-17 15:06
+信息：runtime: 7
+monkey 3 go to ladder 0's9 step when created 4s!
+时间：06-17 15:06
+信息：runtime: 7
+monkey 1 go over ladder 1 when created 7s!
+时间：06-17 15:06
+信息：runtime: 8
+monkey 2 go to ladder 2's11 step when created 5s!
+时间：06-17 15:06
+信息：runtime: 8
+monkey 3 go to ladder 0's13 step when created 5s!
+时间：06-17 15:06
+信息：runtime: 9
+monkey 4 go to ladder 1's1 step when created 0s!
+时间：06-17 15:06
+信息：runtime: 9
+monkey 2 go to ladder 2's13 step when created 6s!
+时间：06-17 15:06
+信息：runtime: 9
+monkey 3 go to ladder 0's17 step when created 6s!
+时间：06-17 15:06
+信息：runtime: 10
+monkey 4 go to ladder 1's2 step when created 1s!
+时间：06-17 15:07
+信息：runtime: 0
+monkey 0 go to ladder 1's1 step when created 0s!
+时间：06-17 15:07
+信息：runtime: 0
+monkey 1 go to ladder 2's1 step when created 0s!
+时间：06-17 15:07
+信息：runtime: 1
+monkey 1 go to ladder 2's5 step when created 1s!
+时间：06-17 15:07
+信息：runtime: 1
+monkey 0 go to ladder 1's3 step when created 1s!
+时间：06-17 15:07
+信息：runtime: 2
+monkey 0 go to ladder 1's5 step when created 2s!
+时间：06-17 15:07
+信息：runtime: 2
+monkey 1 go to ladder 2's9 step when created 2s!
+时间：06-17 15:07
+信息：runtime: 3
+monkey 2 go to ladder 0's1 step when created 0s!
+时间：06-17 15:07
+信息：runtime: 3
+monkey 3 go to ladder 1's1 step when created 0s!
+时间：06-17 15:07
+信息：runtime: 3
+monkey 0 go to ladder 1's7 step when created 3s!
+时间：06-17 15:07
+信息：runtime: 3
+monkey 1 go to ladder 2's13 step when created 3s!
+时间：06-17 15:07
+信息：runtime: 4
+monkey 3 go to ladder 1's5 step when created 1s!
+时间：06-17 15:07
+信息：runtime: 4
+monkey 2 go to ladder 0's3 step when created 1s!
+时间：06-17 15:07
+信息：runtime: 4
+monkey 1 go to ladder 2's17 step when created 4s!
+时间：06-17 15:07
+信息：runtime: 4
+monkey 0 go to ladder 1's9 step when created 4s!
+时间：06-17 15:07
+信息：runtime: 5
+monkey 2 go to ladder 0's5 step when created 2s!
+时间：06-17 15:07
+信息：runtime: 5
+monkey 3 go to ladder 1's8 step when created 2s!
+时间：06-17 15:07
+信息：runtime: 5
+monkey 0 go to ladder 1's11 step when created 5s!
+时间：06-17 15:07
+信息：runtime: 6
+monkey 3 go to ladder 1's10 step when created 3s!
+时间：06-17 15:07
+信息：runtime: 6
+monkey 2 go to ladder 0's7 step when created 3s!
+时间：06-17 15:07
+信息：runtime: 6
+monkey 0 go to ladder 1's13 step when created 6s!
+时间：06-17 15:07
+信息：runtime: 7
+monkey 3 go to ladder 1's12 step when created 4s!
+时间：06-17 15:07
+信息：runtime: 7
+monkey 2 go to ladder 0's9 step when created 4s!
+时间：06-17 15:07
+信息：runtime: 7
+monkey 0 go to ladder 1's15 step when created 7s!
+时间：06-17 15:07
+信息：runtime: 8
+monkey 3 go to ladder 1's14 step when created 5s!
+时间：06-17 15:07
+信息：runtime: 8
+monkey 2 go to ladder 0's11 step when created 5s!
+时间：06-17 15:07
+信息：runtime: 8
+monkey 0 go to ladder 1's17 step when created 8s!
+时间：06-17 15:07
+信息：runtime: 9
+monkey 4 go to ladder 2's1 step when created 0s!
+时间：06-17 15:07
+信息：runtime: 9
+monkey 2 go to ladder 0's13 step when created 6s!
+时间：06-17 15:07
+信息：runtime: 9
+monkey 3 go to ladder 1's16 step when created 6s!
+时间：06-17 15:07
+信息：runtime: 9
+monkey 0 go to ladder 1's19 step when created 9s!
+时间：06-17 15:07
+信息：runtime: 10
+monkey 4 go to ladder 2's4 step when created 1s!
+时间：06-17 15:07
+信息：runtime: 10
+monkey 2 go to ladder 0's15 step when created 7s!
+时间：06-17 15:07
+信息：runtime: 10
+monkey 3 go to ladder 1's18 step when created 7s!
+时间：06-17 15:07
+信息：runtime: 11
+monkey 4 go to ladder 2's7 step when created 2s!
+时间：06-17 15:07
+信息：runtime: 11
+monkey 2 go to ladder 0's17 step when created 8s!
+时间：06-17 15:07
+信息：runtime: 11
+monkey 0 go over ladder 1 when created 11s!
+时间：06-17 15:07
+信息：runtime: 12
+monkey 4 go to ladder 2's10 step when created 3s!
+时间：06-17 15:07
+信息：runtime: 12
+monkey 2 go to ladder 0's19 step when created 9s!
+时间：06-17 15:07
+信息：runtime: 13
+monkey 4 go to ladder 2's13 step when created 4s!
+时间：06-17 15:07
+信息：runtime: 14
+monkey 4 go to ladder 2's16 step when created 5s!
+时间：06-17 15:07
+信息：runtime: 15
+monkey 4 go to ladder 2's19 step when created 6s!
+时间：06-17 15:08
+信息：runtime: 0
+monkey 0 go to ladder 2's1 step when created 0s!
+时间：06-17 15:08
+信息：runtime: 0
+monkey 1 go to ladder 0's1 step when created 0s!
+时间：06-17 15:08
+信息：runtime: 1
+monkey 1 go to ladder 0's6 step when created 1s!
+时间：06-17 15:08
+信息：runtime: 1
+monkey 0 go to ladder 2's4 step when created 1s!
+时间：06-17 15:08
+信息：runtime: 2
+monkey 1 go to ladder 0's11 step when created 2s!
+时间：06-17 15:08
+信息：runtime: 2
+monkey 0 go to ladder 2's7 step when created 2s!
+时间：06-17 15:08
+信息：runtime: 3
+monkey 2 go to ladder 1's1 step when created 0s!
+时间：06-17 15:08
+信息：runtime: 3
+monkey 3 is waiting in L when created 0s!
+时间：06-17 15:08
+信息：runtime: 3
+monkey 1 go to ladder 0's16 step when created 3s!
+时间：06-17 15:08
+信息：runtime: 3
+monkey 0 go to ladder 2's10 step when created 3s!
+时间：06-17 15:08
+信息：runtime: 4
+monkey 2 go to ladder 1's5 step when created 1s!
+时间：06-17 15:08
+信息：runtime: 4
+monkey 3 go to ladder 1's1 step when created 1s!
+时间：06-17 15:08
+信息：runtime: 4
+monkey 0 go to ladder 2's13 step when created 4s!
+时间：06-17 15:08
+信息：runtime: 5
+monkey 2 go to ladder 1's9 step when created 2s!
+时间：06-17 15:08
+信息：runtime: 5
+monkey 3 go to ladder 1's3 step when created 2s!
+时间：06-17 15:08
+信息：runtime: 5
+monkey 0 go to ladder 2's16 step when created 5s!
+时间：06-17 15:08
+信息：runtime: 6
+monkey 2 go to ladder 1's13 step when created 3s!
+时间：06-17 15:08
+信息：runtime: 6
+monkey 3 go to ladder 1's5 step when created 3s!
+时间：06-17 15:08
+信息：runtime: 6
+monkey 0 go to ladder 2's19 step when created 6s!
+时间：06-17 15:08
+信息：runtime: 7
+monkey 2 go to ladder 1's17 step when created 4s!
+时间：06-17 15:08
+信息：runtime: 7
+monkey 3 go to ladder 1's7 step when created 4s!
+时间：06-17 15:09
+信息：runtime: 8
+monkey 3 go to ladder 1's9 step when created 5s!
+时间：06-17 15:09
+信息：runtime: 8
+monkey 0 go over ladder 2 when created 8s!
+时间：06-17 15:09
+信息：runtime: 9
+monkey 4 go to ladder 0's1 step when created 0s!
+时间：06-17 15:09
+信息：runtime: 9
+monkey 3 go to ladder 1's11 step when created 6s!
+时间：06-17 15:09
+信息：runtime: 10
+monkey 4 go to ladder 0's3 step when created 1s!
+时间：06-17 15:09
+信息：runtime: 10
+monkey 3 go to ladder 1's13 step when created 7s!
+时间：06-17 15:09
+信息：runtime: 11
+monkey 4 go to ladder 0's5 step when created 2s!
+时间：06-17 15:09
+信息：runtime: 11
+monkey 3 go to ladder 1's15 step when created 8s!
+时间：06-17 15:09
+信息：runtime: 12
+monkey 4 go to ladder 0's7 step when created 3s!
+时间：06-17 15:09
+信息：runtime: 12
+monkey 3 go to ladder 1's17 step when created 9s!
+时间：06-17 15:09
+信息：runtime: 13
+monkey 4 go to ladder 0's9 step when created 4s!
+时间：06-17 15:09
+信息：runtime: 13
+monkey 3 go to ladder 1's19 step when created 10s!
+时间：06-17 15:09
+信息：runtime: 14
+monkey 4 go to ladder 0's11 step when created 5s!
+时间：06-17 15:09
+信息：runtime: 15
+monkey 4 go to ladder 0's13 step when created 6s!
+时间：06-17 15:09
+信息：runtime: 16
+monkey 4 go to ladder 0's15 step when created 7s!
+时间：06-17 15:09
+信息：runtime: 17
+monkey 4 go to ladder 0's17 step when created 8s!
+时间：06-17 15:09
+信息：runtime: 18
+monkey 4 go to ladder 0's19 step when created 9s!
+时间：06-17 15:10
+信息：runtime: 0
+monkey 1 go to ladder 2's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 0
+monkey 0 go to ladder 0's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 1
+monkey 0 go to ladder 0's3 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 1
+monkey 1 go to ladder 2's5 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 2
+monkey 0 go to ladder 0's5 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 2
+monkey 1 go to ladder 2's9 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 3
+monkey 2 go to ladder 1's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 3
+monkey 3 go to ladder 0's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 3
+monkey 0 go to ladder 0's7 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 3
+monkey 1 go to ladder 2's13 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 4
+monkey 2 go to ladder 1's2 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 4
+monkey 3 go to ladder 0's4 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 4
+monkey 0 go to ladder 0's9 step when created 4s!
+时间：06-17 15:10
+信息：runtime: 4
+monkey 1 go to ladder 2's17 step when created 4s!
+时间：06-17 15:10
+信息：runtime: 5
+monkey 2 go to ladder 1's3 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 5
+monkey 3 go to ladder 0's7 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 5
+monkey 0 go to ladder 0's11 step when created 5s!
+时间：06-17 15:10
+信息：runtime: 6
+monkey 2 go to ladder 1's4 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 6
+monkey 3 go to ladder 0's10 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 6
+monkey 0 go to ladder 0's13 step when created 6s!
+时间：06-17 15:10
+信息：runtime: 6
+monkey 1 go over ladder 2 when created 6s!
+时间：06-17 15:10
+信息：runtime: 7
+monkey 2 go to ladder 1's5 step when created 4s!
+时间：06-17 15:10
+信息：runtime: 7
+monkey 3 go to ladder 0's12 step when created 4s!
+时间：06-17 15:10
+信息：runtime: 7
+monkey 0 go to ladder 0's15 step when created 7s!
+时间：06-17 15:10
+信息：runtime: 8
+monkey 2 go to ladder 1's6 step when created 5s!
+时间：06-17 15:10
+信息：runtime: 8
+monkey 3 go to ladder 0's14 step when created 5s!
+时间：06-17 15:10
+信息：runtime: 8
+monkey 0 go to ladder 0's17 step when created 8s!
+时间：06-17 15:10
+信息：runtime: 9
+monkey 4 go to ladder 2's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 9
+monkey 2 go to ladder 1's7 step when created 6s!
+时间：06-17 15:10
+信息：runtime: 9
+monkey 3 go to ladder 0's16 step when created 6s!
+时间：06-17 15:10
+信息：runtime: 9
+monkey 0 go to ladder 0's19 step when created 9s!
+时间：06-17 15:10
+信息：runtime: 10
+monkey 4 go to ladder 2's6 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 10
+monkey 3 go to ladder 0's18 step when created 7s!
+时间：06-17 15:10
+信息：runtime: 10
+monkey 2 go to ladder 1's8 step when created 7s!
+时间：06-17 15:10
+信息：runtime: 11
+monkey 4 go to ladder 2's11 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 11
+monkey 2 go to ladder 1's9 step when created 8s!
+时间：06-17 15:10
+信息：runtime: 11
+monkey 0 go over ladder 0 when created 11s!
+时间：06-17 15:10
+信息：runtime: 12
+monkey 4 go to ladder 2's16 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 12
+monkey 2 go to ladder 1's10 step when created 9s!
+时间：06-17 15:10
+信息：runtime: 12
+monkey 3 go over ladder 0 when created 9s!
+时间：06-17 15:10
+信息：runtime: 13
+monkey 2 go to ladder 1's11 step when created 10s!
+时间：06-17 15:10
+信息：runtime: 14
+monkey 4 go over ladder 2 when created 5s!
+时间：06-17 15:10
+信息：runtime: 14
+monkey 2 go to ladder 1's12 step when created 11s!
+时间：06-17 15:10
+信息：runtime: 15
+monkey 2 go to ladder 1's13 step when created 12s!
+时间：06-17 15:10
+信息：runtime: 16
+monkey 2 go to ladder 1's14 step when created 13s!
+时间：06-17 15:10
+信息：runtime: 17
+monkey 2 go to ladder 1's15 step when created 14s!
+时间：06-17 15:10
+信息：runtime: 18
+monkey 2 go to ladder 1's16 step when created 15s!
+时间：06-17 15:10
+信息：runtime: 19
+monkey 2 go to ladder 1's17 step when created 16s!
+时间：06-17 15:10
+信息：runtime: 20
+monkey 2 go to ladder 1's18 step when created 17s!
+时间：06-17 15:10
+信息：runtime: 21
+monkey 2 go to ladder 1's19 step when created 18s!
+时间：06-17 15:10
+信息：runtime: 22
+monkey 2 go to ladder 1's20 step when created 19s!
+时间：06-17 15:10
+信息：runtime: 24
+monkey 2 go over ladder 1 when created 21s!
+时间：06-17 15:10
+信息：runtime: 0
+monkey 0 go to ladder 2's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 0
+monkey 1 go to ladder 0's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 1
+monkey 1 go to ladder 0's3 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 1
+monkey 0 go to ladder 2's5 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 2
+monkey 1 go to ladder 0's5 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 2
+monkey 0 go to ladder 2's9 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 3
+monkey 2 go to ladder 1's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 3
+monkey 3 go to ladder 0's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 3
+monkey 1 go to ladder 0's7 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 3
+monkey 0 go to ladder 2's13 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 4
+monkey 2 go to ladder 1's5 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 4
+monkey 3 go to ladder 0's2 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 4
+monkey 1 go to ladder 0's9 step when created 4s!
+时间：06-17 15:10
+信息：runtime: 4
+monkey 0 go to ladder 2's17 step when created 4s!
+时间：06-17 15:10
+信息：runtime: 5
+monkey 2 go to ladder 1's9 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 5
+monkey 3 go to ladder 0's3 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 5
+monkey 1 go to ladder 0's11 step when created 5s!
+时间：06-17 15:10
+信息：runtime: 6
+monkey 2 go to ladder 1's13 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 6
+monkey 3 go to ladder 0's4 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 6
+monkey 1 go to ladder 0's13 step when created 6s!
+时间：06-17 15:10
+信息：runtime: 6
+monkey 0 go over ladder 2 when created 6s!
+时间：06-17 15:10
+信息：runtime: 7
+monkey 2 go to ladder 1's17 step when created 4s!
+时间：06-17 15:10
+信息：runtime: 7
+monkey 3 go to ladder 0's5 step when created 4s!
+时间：06-17 15:10
+信息：runtime: 7
+monkey 1 go to ladder 0's15 step when created 7s!
+时间：06-17 15:10
+信息：runtime: 8
+monkey 3 go to ladder 0's6 step when created 5s!
+时间：06-17 15:10
+信息：runtime: 8
+monkey 1 go to ladder 0's17 step when created 8s!
+时间：06-17 15:10
+信息：runtime: 9
+monkey 4 go to ladder 1's1 step when created 0s!
+时间：06-17 15:10
+信息：runtime: 9
+monkey 3 go to ladder 0's7 step when created 6s!
+时间：06-17 15:10
+信息：runtime: 9
+monkey 2 go over ladder 1 when created 6s!
+时间：06-17 15:10
+信息：runtime: 9
+monkey 1 go to ladder 0's19 step when created 9s!
+时间：06-17 15:10
+信息：runtime: 10
+monkey 4 go to ladder 1's6 step when created 1s!
+时间：06-17 15:10
+信息：runtime: 10
+monkey 3 go to ladder 0's8 step when created 7s!
+时间：06-17 15:10
+信息：runtime: 11
+monkey 4 go to ladder 1's11 step when created 2s!
+时间：06-17 15:10
+信息：runtime: 11
+monkey 3 go to ladder 0's9 step when created 8s!
+时间：06-17 15:10
+信息：runtime: 11
+monkey 1 go over ladder 0 when created 11s!
+时间：06-17 15:10
+信息：runtime: 12
+monkey 4 go to ladder 1's16 step when created 3s!
+时间：06-17 15:10
+信息：runtime: 12
+monkey 3 go to ladder 0's10 step when created 9s!
+时间：06-17 15:10
+信息：runtime: 13
+monkey 3 go to ladder 0's11 step when created 10s!
+时间：06-17 15:10
+信息：runtime: 14
+monkey 3 go to ladder 0's12 step when created 11s!
+时间：06-17 15:10
+信息：runtime: 14
+monkey 4 go over ladder 1 when created 5s!
+时间：06-17 15:11
+信息：runtime: 15
+monkey 3 go to ladder 0's13 step when created 12s!
+时间：06-17 15:11
+信息：runtime: 16
+monkey 3 go to ladder 0's14 step when created 13s!
+时间：06-17 15:11
+信息：runtime: 17
+monkey 3 go to ladder 0's15 step when created 14s!
+时间：06-17 15:11
+信息：runtime: 18
+monkey 3 go to ladder 0's16 step when created 15s!
+时间：06-17 15:11
+信息：runtime: 19
+monkey 3 go to ladder 0's17 step when created 16s!
+时间：06-17 15:11
+信息：runtime: 20
+monkey 3 go to ladder 0's18 step when created 17s!
+时间：06-17 15:11
+信息：runtime: 21
+monkey 3 go to ladder 0's19 step when created 18s!
+时间：06-17 15:11
+信息：runtime: 22
+monkey 3 go to ladder 0's20 step when created 19s!
+时间：06-17 15:11
+信息：runtime: 24
+monkey 3 go over ladder 0 when created 21s!
+时间：06-17 15:11
+信息：runtime: 0
+monkey 0 go to ladder 0's1 step when created 0s!
+时间：06-17 15:11
+信息：runtime: 0
+monkey 1 is waiting in L when created 0s!
+时间：06-17 15:11
+信息：runtime: 1
+monkey 0 go to ladder 0's4 step when created 1s!
+时间：06-17 15:11
+信息：runtime: 1
+monkey 1 go to ladder 1's1 step when created 1s!
+时间：06-17 15:11
+信息：runtime: 2
+monkey 0 go to ladder 0's7 step when created 2s!
+时间：06-17 15:11
+信息：runtime: 2
+monkey 1 go to ladder 1's4 step when created 2s!
+时间：06-17 15:11
+信息：runtime: 3
+monkey 2 go to ladder 2's1 step when created 0s!
+时间：06-17 15:11
+信息：runtime: 3
+monkey 3 is waiting in R when created 0s!
+时间：06-17 15:11
+信息：runtime: 3
+monkey 0 go to ladder 0's10 step when created 3s!
+时间：06-17 15:11
+信息：runtime: 3
+monkey 1 go to ladder 1's7 step when created 3s!
+时间：06-17 15:11
+信息：runtime: 4
+monkey 2 go to ladder 2's2 step when created 1s!
+时间：06-17 15:11
+信息：runtime: 4
+monkey 3 is waiting in R when created 1s!
+时间：06-17 15:11
+信息：runtime: 4
+monkey 0 go to ladder 0's13 step when created 4s!
+时间：06-17 15:11
+信息：runtime: 4
+monkey 1 go to ladder 1's10 step when created 4s!
+时间：06-17 15:11
+信息：runtime: 5
+monkey 2 go to ladder 2's3 step when created 2s!
+时间：06-17 15:11
+信息：runtime: 5
+monkey 3 is waiting in R when created 2s!
+时间：06-17 15:11
+信息：runtime: 5
+monkey 0 go to ladder 0's16 step when created 5s!
+时间：06-17 15:11
+信息：runtime: 5
+monkey 1 go to ladder 1's13 step when created 5s!
+时间：06-17 15:11
+信息：runtime: 6
+monkey 3 is waiting in R when created 3s!
+时间：06-17 15:11
+信息：runtime: 6
+monkey 2 go to ladder 2's4 step when created 3s!
+时间：06-17 15:11
+信息：runtime: 6
+monkey 0 go to ladder 0's19 step when created 6s!
+时间：06-17 15:11
+信息：runtime: 6
+monkey 1 go to ladder 1's16 step when created 6s!
+时间：06-17 15:11
+信息：runtime: 7
+monkey 3 is waiting in R when created 4s!
+时间：06-17 15:11
+信息：runtime: 7
+monkey 2 go to ladder 2's5 step when created 4s!
+时间：06-17 15:11
+信息：runtime: 7
+monkey 1 go to ladder 1's19 step when created 7s!
+时间：06-17 15:11
+信息：runtime: 8
+monkey 2 go to ladder 2's6 step when created 5s!
+时间：06-17 15:11
+信息：runtime: 8
+monkey 3 go to ladder 0's1 step when created 5s!
+时间：06-17 15:11
+信息：runtime: 8
+monkey 0 go over ladder 0 when created 8s!
+时间：06-17 15:11
+信息：runtime: 9
+monkey 4 go to ladder 1's1 step when created 0s!
+时间：06-17 15:11
+信息：runtime: 9
+monkey 2 go to ladder 2's7 step when created 6s!
+时间：06-17 15:11
+信息：runtime: 9
+monkey 3 go to ladder 0's6 step when created 6s!
+时间：06-17 15:11
+信息：runtime: 9
+monkey 1 go over ladder 1 when created 9s!
+时间：06-17 15:11
+信息：runtime: 10
+monkey 4 go to ladder 1's2 step when created 1s!
+时间：06-17 15:11
+信息：runtime: 10
+monkey 2 go to ladder 2's8 step when created 7s!
+时间：06-17 15:11
+信息：runtime: 10
+monkey 3 go to ladder 0's11 step when created 7s!
+时间：06-17 15:11
+信息：runtime: 11
+monkey 4 go to ladder 1's3 step when created 2s!
+时间：06-17 15:11
+信息：runtime: 11
+monkey 2 go to ladder 2's9 step when created 8s!
+时间：06-17 15:11
+信息：runtime: 11
+monkey 3 go to ladder 0's16 step when created 8s!
+时间：06-17 15:11
+信息：runtime: 12
+monkey 4 go to ladder 1's4 step when created 3s!
+时间：06-17 15:11
+信息：runtime: 12
+monkey 2 go to ladder 2's10 step when created 9s!
+时间：06-17 15:11
+信息：runtime: 13
+monkey 4 go to ladder 1's5 step when created 4s!
+时间：06-17 15:11
+信息：runtime: 13
+monkey 2 go to ladder 2's11 step when created 10s!
+时间：06-17 15:11
+信息：runtime: 13
+monkey 3 go over ladder 0 when created 10s!
+时间：06-17 15:11
+信息：runtime: 14
+monkey 4 go to ladder 1's6 step when created 5s!
+时间：06-17 15:11
+信息：runtime: 14
+monkey 2 go to ladder 2's12 step when created 11s!
+时间：06-17 15:11
+信息：runtime: 15
+monkey 4 go to ladder 1's7 step when created 6s!
+时间：06-17 15:11
+信息：runtime: 15
+monkey 2 go to ladder 2's13 step when created 12s!
+时间：06-17 15:11
+信息：runtime: 16
+monkey 4 go to ladder 1's8 step when created 7s!
+时间：06-17 15:11
+信息：runtime: 16
+monkey 2 go to ladder 2's14 step when created 13s!
+时间：06-17 15:11
+信息：runtime: 17
+monkey 4 go to ladder 1's9 step when created 8s!
+时间：06-17 15:11
+信息：runtime: 17
+monkey 2 go to ladder 2's15 step when created 14s!
+时间：06-17 15:11
+信息：runtime: 18
+monkey 4 go to ladder 1's10 step when created 9s!
+时间：06-17 15:11
+信息：runtime: 18
+monkey 2 go to ladder 2's16 step when created 15s!
+时间：06-17 15:11
+信息：runtime: 19
+monkey 4 go to ladder 1's11 step when created 10s!
+时间：06-17 15:11
+信息：runtime: 19
+monkey 2 go to ladder 2's17 step when created 16s!
+时间：06-17 15:11
+信息：runtime: 20
+monkey 4 go to ladder 1's12 step when created 11s!
+时间：06-17 15:11
+信息：runtime: 20
+monkey 2 go to ladder 2's18 step when created 17s!
+时间：06-17 15:11
+信息：runtime: 21
+monkey 4 go to ladder 1's13 step when created 12s!
+时间：06-17 15:11
+信息：runtime: 21
+monkey 2 go to ladder 2's19 step when created 18s!
+时间：06-17 15:11
+信息：runtime: 22
+monkey 4 go to ladder 1's14 step when created 13s!
+时间：06-17 15:11
+信息：runtime: 22
+monkey 2 go to ladder 2's20 step when created 19s!
+时间：06-17 15:11
+信息：runtime: 23
+monkey 4 go to ladder 1's15 step when created 14s!
+时间：06-17 15:11
+信息：runtime: 24
+monkey 4 go to ladder 1's16 step when created 15s!
+时间：06-17 15:11
+信息：runtime: 24
+monkey 2 go over ladder 2 when created 21s!
+时间：06-17 15:11
+信息：runtime: 25
+monkey 4 go to ladder 1's17 step when created 16s!
+时间：06-17 15:11
+信息：runtime: 26
+monkey 4 go to ladder 1's18 step when created 17s!
+时间：06-17 15:11
+信息：runtime: 27
+monkey 4 go to ladder 1's19 step when created 18s!
+时间：06-17 15:11
+信息：runtime: 28
+monkey 4 go to ladder 1's20 step when created 19s!
+时间：06-17 15:11
+信息：runtime: 30
+monkey 4 go over ladder 1 when created 21s!
+时间：06-17 15:12
+信息：runtime: 0
+monkey 1 go to ladder 0's1 step when created 0s!
+时间：06-17 15:12
+信息：runtime: 0
+monkey 0 is waiting in R when created 0s!
+时间：06-17 15:12
+信息：runtime: 1
+monkey 1 go to ladder 0's6 step when created 1s!
+时间：06-17 15:12
+信息：runtime: 1
+monkey 0 go to ladder 1's1 step when created 1s!
+时间：06-17 15:12
+信息：runtime: 2
+monkey 1 go to ladder 0's11 step when created 2s!
+时间：06-17 15:12
+信息：runtime: 2
+monkey 0 go to ladder 1's2 step when created 2s!
+时间：06-17 15:12
+信息：runtime: 3
+monkey 2 go to ladder 2's1 step when created 0s!
+时间：06-17 15:12
+信息：runtime: 3
+monkey 3 is waiting in R when created 0s!
+时间：06-17 15:12
+信息：runtime: 3
+monkey 1 go to ladder 0's16 step when created 3s!
+时间：06-17 15:12
+信息：runtime: 3
+monkey 0 go to ladder 1's3 step when created 3s!
+时间：06-17 15:12
+信息：runtime: 4
+monkey 3 is waiting in R when created 1s!
+时间：06-17 15:12
+信息：runtime: 4
+monkey 2 go to ladder 2's2 step when created 1s!
+时间：06-17 15:12
+信息：runtime: 4
+monkey 0 go to ladder 1's4 step when created 4s!
+时间：06-17 15:12
+信息：runtime: 5
+monkey 2 go to ladder 2's3 step when created 2s!
+时间：06-17 15:12
+信息：runtime: 5
+monkey 3 go to ladder 0's1 step when created 2s!
+时间：06-17 15:12
+信息：runtime: 5
+monkey 0 go to ladder 1's5 step when created 5s!
+时间：06-17 15:12
+信息：runtime: 5
+monkey 1 go over ladder 0 when created 5s!
+时间：06-17 15:12
+信息：runtime: 6
+monkey 3 go to ladder 0's4 step when created 3s!
+时间：06-17 15:12
+信息：runtime: 6
+monkey 2 go to ladder 2's4 step when created 3s!
+时间：06-17 15:12
+信息：runtime: 6
+monkey 0 go to ladder 1's6 step when created 6s!
+时间：06-17 15:12
+信息：runtime: 7
+monkey 3 go to ladder 0's7 step when created 4s!
+时间：06-17 15:12
+信息：runtime: 7
+monkey 2 go to ladder 2's5 step when created 4s!
+时间：06-17 15:12
+信息：runtime: 7
+monkey 0 go to ladder 1's7 step when created 7s!
+时间：06-17 15:12
+信息：runtime: 8
+monkey 3 go to ladder 0's10 step when created 5s!
+时间：06-17 15:12
+信息：runtime: 8
+monkey 2 go to ladder 2's6 step when created 5s!
+时间：06-17 15:12
+信息：runtime: 8
+monkey 0 go to ladder 1's8 step when created 8s!
+时间：06-17 15:12
+信息：runtime: 9
+monkey 4 go to ladder 2's1 step when created 0s!
+时间：06-17 15:12
+信息：runtime: 9
+monkey 3 go to ladder 0's13 step when created 6s!
+时间：06-17 15:12
+信息：runtime: 9
+monkey 2 go to ladder 2's7 step when created 6s!
+时间：06-17 15:12
+信息：runtime: 9
+monkey 0 go to ladder 1's9 step when created 9s!
+时间：06-17 15:12
+信息：runtime: 10
+monkey 4 go to ladder 2's5 step when created 1s!
+时间：06-17 15:12
+信息：runtime: 10
+monkey 2 go to ladder 2's8 step when created 7s!
+时间：06-17 15:12
+信息：runtime: 10
+monkey 3 go to ladder 0's16 step when created 7s!
+时间：06-17 15:12
+信息：runtime: 10
+monkey 0 go to ladder 1's10 step when created 10s!
+时间：06-17 15:12
+信息：runtime: 11
+monkey 4 go to ladder 2's7 step when created 2s!
+时间：06-17 15:12
+信息：runtime: 11
+monkey 3 go to ladder 0's19 step when created 8s!
+时间：06-17 15:12
+信息：runtime: 11
+monkey 2 go to ladder 2's9 step when created 8s!
+时间：06-17 15:12
+信息：runtime: 11
+monkey 0 go to ladder 1's11 step when created 11s!
+时间：06-17 15:12
+信息：runtime: 12
+monkey 4 go to ladder 2's8 step when created 3s!
+时间：06-17 15:12
+信息：runtime: 12
+monkey 2 go to ladder 2's10 step when created 9s!
+时间：06-17 15:12
+信息：runtime: 12
+monkey 0 go to ladder 1's12 step when created 12s!
+时间：06-17 15:12
+信息：runtime: 13
+monkey 4 go to ladder 2's9 step when created 4s!
+时间：06-17 15:12
+信息：runtime: 13
+monkey 2 go to ladder 2's11 step when created 10s!
+时间：06-17 15:12
+信息：runtime: 13
+monkey 3 go over ladder 0 when created 10s!
+时间：06-17 15:12
+信息：runtime: 13
+monkey 0 go to ladder 1's13 step when created 13s!
+时间：06-17 15:12
+信息：runtime: 14
+monkey 4 go to ladder 2's10 step when created 5s!
+时间：06-17 15:12
+信息：runtime: 14
+monkey 2 go to ladder 2's12 step when created 11s!
+时间：06-17 15:12
+信息：runtime: 14
+monkey 0 go to ladder 1's14 step when created 14s!
+时间：06-17 15:12
+信息：runtime: 15
+monkey 4 go to ladder 2's11 step when created 6s!
+时间：06-17 15:12
+信息：runtime: 15
+monkey 2 go to ladder 2's13 step when created 12s!
+时间：06-17 15:12
+信息：runtime: 15
+monkey 0 go to ladder 1's15 step when created 15s!
+时间：06-17 15:12
+信息：runtime: 16
+monkey 4 go to ladder 2's12 step when created 7s!
+时间：06-17 15:12
+信息：runtime: 16
+monkey 2 go to ladder 2's14 step when created 13s!
+时间：06-17 15:12
+信息：runtime: 16
+monkey 0 go to ladder 1's16 step when created 16s!
+时间：06-17 15:12
+信息：runtime: 17
+monkey 4 go to ladder 2's13 step when created 8s!
+时间：06-17 15:12
+信息：runtime: 17
+monkey 2 go to ladder 2's15 step when created 14s!
+时间：06-17 15:12
+信息：runtime: 17
+monkey 0 go to ladder 1's17 step when created 17s!
+时间：06-17 15:12
+信息：runtime: 18
+monkey 4 go to ladder 2's14 step when created 9s!
+时间：06-17 15:12
+信息：runtime: 18
+monkey 2 go to ladder 2's16 step when created 15s!
+时间：06-17 15:12
+信息：runtime: 18
+monkey 0 go to ladder 1's18 step when created 18s!
+时间：06-17 15:12
+信息：runtime: 19
+monkey 4 go to ladder 2's15 step when created 10s!
+时间：06-17 15:12
+信息：runtime: 19
+monkey 2 go to ladder 2's17 step when created 16s!
+时间：06-17 15:12
+信息：runtime: 19
+monkey 0 go to ladder 1's19 step when created 19s!
+时间：06-17 15:12
+信息：runtime: 20
+monkey 4 go to ladder 2's16 step when created 11s!
+时间：06-17 15:12
+信息：runtime: 20
+monkey 2 go to ladder 2's18 step when created 17s!
+时间：06-17 15:12
+信息：runtime: 20
+monkey 0 go to ladder 1's20 step when created 20s!
+时间：06-17 15:12
+信息：runtime: 21
+monkey 4 go to ladder 2's17 step when created 12s!
+时间：06-17 15:12
+信息：runtime: 21
+monkey 2 go to ladder 2's19 step when created 18s!
+时间：06-17 15:12
+信息：runtime: 22
+monkey 4 go to ladder 2's18 step when created 13s!
+时间：06-17 15:12
+信息：runtime: 22
+monkey 2 go to ladder 2's20 step when created 19s!
+时间：06-17 15:12
+信息：runtime: 22
+monkey 0 go over ladder 1 when created 22s!
+时间：06-17 15:12
+信息：runtime: 23
+monkey 4 go to ladder 2's19 step when created 14s!
+时间：06-17 15:12
+信息：runtime: 24
+monkey 2 go over ladder 2 when created 21s!
+时间：06-17 15:12
+信息：runtime: 25
+monkey 4 go over ladder 2 when created 16s!

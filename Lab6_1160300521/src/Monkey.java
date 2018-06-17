@@ -60,6 +60,6 @@ public class Monkey {
   }
   public String toString() {
     return "id: " + this.ID + " direction: " + this.direction 
-        + " v: " + this.v + "behavior is " + this.mybehavior.type();
+        + " v: " + this.v + "  behavior is " + this.mybehavior.type();
   }
 }

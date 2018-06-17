@@ -7,10 +7,12 @@ public class MonkeyGenerator {
   private int numberofmonkey;
   private int numberofpass;
   private int runtime;
+  private fair f;
 
   public MonkeyGenerator(int n) {
     this.numberofmonkey = n;
     this.numberofpass = 0;
+    this.f = new fair(n);
   }
   
   private int getruntime() {
@@ -76,6 +78,7 @@ public class MonkeyGenerator {
         int time = 0;
         int runtime = getruntime();
         boolean flag = true;
+        boolean isover = (number == monkeys.size() - 1);
         while (flag) {
           if (mymonkey.getstate().equals("wait")) {
             Ladder l = mymonkey.operate(ladders);
@@ -131,8 +134,10 @@ public class MonkeyGenerator {
           }
           if (mymonkey.getstate().equals("over")) {
             flag = false;
+            f.overadd(number, (runtime + time));
             logger.info("runtime: " + (runtime + time) + "\n" +  "monkey " + mymonkey.getid() 
             + " go over ladder "+ mymonkey.getmyladder().getid() +" when created " + time + "s!");
+            f.isover();
             try {
               this.sleep(1000);
               time++;

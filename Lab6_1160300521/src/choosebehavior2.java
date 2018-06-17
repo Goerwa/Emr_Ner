@@ -8,7 +8,7 @@ public class choosebehavior2 implements Choosebehavior{
     int numstep = -1;
     Ladder l = null;
     for (Ladder lad : ladders) {
-      System.out.println(lad.getmap().size());
+      //System.out.println(lad.getmap().size());
       if (lad.getdirection().equals(mymonkey.getdirection())
           || lad.getdirection().equals("N")) {
         if (lad.getladderstep() > numstep) {
