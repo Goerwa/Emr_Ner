@@ -12,7 +12,7 @@ public class fair {
   public void overadd(int m, int t) {
     synchronized(fair.class) {
     mt.put(m, t);
-    System.out.println(mt.size());
+    //System.out.println(mt.size());
     }
   }
   private int gettime() {

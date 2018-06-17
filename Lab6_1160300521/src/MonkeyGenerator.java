@@ -21,7 +21,8 @@ public class MonkeyGenerator {
   private void addruntime(int n) {
     this.runtime += n;
   }
-  public void build(int n, int h, int N, int v, List<Monkey> monkeys, List<Ladder> ladders) {
+  public void build(int n, int h, int N, int v, List<Monkey> monkeys,
+      List<Ladder> ladders,int plan) {
     this.runtime = 0;
     Random rand = new Random();
     for (int i = 0; i < n; i++) {
@@ -39,7 +40,7 @@ public class MonkeyGenerator {
         direction = "R->L";
       }
       Monkey m = new Monkey(i, direction, monkeyv);
-      int plan = rand.nextInt(100) % 3;
+      //int plan = rand.nextInt(100) % 3;
       if (plan == 0) {
         m.setmybehavior(new choosebehavior1());
       }else if (plan == 1) {
@@ -48,10 +49,10 @@ public class MonkeyGenerator {
         m.setmybehavior(new choosebehavior3());
       }
       monkeys.add(m);
-      System.out.println(m.toString());
+     // System.out.println(m.toString());
     }
-    System.out.println("the number of ladders is: " + ladders.size());
-    System.out.println("the number of monkeys is: " + monkeys.size());
+    //System.out.println("the number of ladders is: " + ladders.size());
+    //System.out.println("the number of monkeys is: " + monkeys.size());
   }
 
   private void monkeyover(long start) {

@@ -22,9 +22,10 @@ public class Main {
       int N = Integer.parseInt(parameter[3]);
       int k = Integer.parseInt(parameter[4]);
       int MV = Integer.parseInt(parameter[5]);
+      int p = Integer.parseInt(parameter[6]);
       //System.out.println(n + " " + h + " " + t + " " + N + " " + k + " " + MV);
       MonkeyGenerator mkl = new MonkeyGenerator(N);
-      mkl.build(n,h,N,MV,monkeys,ladders);
+      mkl.build(n,h,N,MV,monkeys,ladders,p);
       long begin = System.currentTimeMillis();
       mkl.creatmonkeysbytime(k,t,monkeys,ladders,begin);
     }
