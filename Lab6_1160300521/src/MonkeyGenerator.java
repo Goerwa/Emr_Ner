@@ -39,7 +39,7 @@ public class MonkeyGenerator {
       } else {
         direction = "R->L";
       }
-      Monkey m = new Monkey(i, direction, monkeyv);
+      Monkey m = new Monkey(i, direction, monkeyv*3);
       //int plan = rand.nextInt(100) % 3;
       if (plan == 0) {
         m.setmybehavior(new choosebehavior1());
