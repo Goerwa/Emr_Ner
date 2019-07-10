@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <include layout="@layout/activity_toolbar" />
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay" android:id="@+id/appBarLayout">
+
+        <!--<androidx.appcompat.widget.Toolbar-->
+                <!--android:id="@+id/toolbar"-->
+                <!--android:backgroundTint="#00BCD4"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="?attr/actionBarSize"-->
+                <!--android:background="?attr/colorPrimary"-->
+                <!--app:popupTheme="@style/AppTheme.PopupOverlay"/>-->
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/hit"
+                android:id="@+id/pic"/>
+        <TextView
+                android:text="在线考试APP"
+                android:layout_marginTop="10dp"
+                android:textSize="28dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/app_title"/>
+        <Button
+                android:text="开始答题"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textColor="#ffffff"
+                android:background="#00BCD4"
+                android:id="@+id/start_test"
+        />
+        <Button
+                android:text="选择题目类型"
+                android:paddingTop="0dp"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:background="#00BCD4"
+                android:id="@+id/choose_type"
+        />
+        <Button
+                android:text="选择试卷"
+                android:paddingTop="0dp"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:background="#00BCD4"
+                android:id="@+id/BT_paper"
+        />
+        <Button
+                android:text="查看错题"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:background="#768F99"
+                android:id="@+id/start_test3"
+        />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

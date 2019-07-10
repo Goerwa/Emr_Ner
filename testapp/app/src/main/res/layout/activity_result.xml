@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <include layout="@layout/activity_toolbar"/>
+    </LinearLayout>
+    <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="答题结果"
+            android:background="@drawable/line_out"
+            android:textSize="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/info_str"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+        <Button
+                android:text="查看错题"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="#00BCD4"
+                android:id="@+id/bt_lookup"/>
+        <Button
+                android:text="返回主菜单"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="#00BCD4"
+                android:id="@+id/bt_out"/>
+    </LinearLayout>
+</LinearLayout>
